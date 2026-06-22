@@ -292,6 +292,56 @@ flowchart TD
 
 ---
 
+## F12 — Edição de cortes na revisão
+
+**Entrega:**
+- `PATCH /v1/runs/{id}/cuts/{cutId}`
+- `POST /v1/runs/{id}/cuts`
+- `DELETE /v1/runs/{id}/cuts/{cutId}`
+- UI editável no `CutReviewPanel`
+
+**Commit:** `feat(api): cut edit CRUD during approval review`
+
+---
+
+## F13 — Job logs + operações de run
+
+**Entrega:**
+- `GET /v1/runs/{id}/jobs`
+- `POST /v1/runs/{id}/cancel`
+- `POST /v1/runs/{id}/reanalyze`
+- `POST /v1/runs/{id}/retry`
+- Status `cancelled` (migration 006)
+- Worker ignora jobs de runs cancelados
+
+**Commit:** `feat(api): run jobs list, cancel, reanalyze, and retry`
+
+---
+
+## F14 — PATCH templates + assets
+
+**Entrega:**
+- `PATCH /v1/templates/{id}`
+- `PATCH /v1/subtitle-templates/{id}`
+- `POST /v1/templates/{id}/assets`
+- `GET /v1/templates/{id}/assets/{filename}`
+
+**Commit:** `feat(api): PATCH templates and thumbnail asset upload`
+
+---
+
+## F15 — Polimento UX frontend
+
+**Entrega:**
+- Botões Cancel / Re-analyze / Retry no run detail
+- Painel Jobs colapsável
+- Filtro `cancelled`, pre-fill URL em novo run
+- Indicador `hasAssets` na lista de templates
+
+**Commit:** `feat(ui): run ops, editable cuts, and template management`
+
+---
+
 ## Próximo passo
 
 Após commit da F0, iniciar **F1 — Scaffold backend** no submodule `backend/`.
