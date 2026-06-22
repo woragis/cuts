@@ -26,13 +26,14 @@ Catálogo de pipelines da Máquina de Cortes.
 **Uso:** curadoria de canais de terceiros; clips virais.
 
 ```text
-youtubeUrl
-  → ingest.youtube.download
-  → transcribe.run
-  → analyze.gemini (cutBrief → shorts[])
+youtubeUrl + cutBrief
+  → analyze.gemini.url          ← Gemini assiste o vídeo pela URL (sem download)
   → [approve cuts]
+  → ingest.youtube.download     ← download único após aprovação
+  → transcribe.run              ← só se burnSubtitles (Whisper word timestamps)
   → metadata.generate (por cut)
   → thumbnail.generate (template escolhido)
+  → subtitle.generate           ← shorts + burnSubtitles
   → render.short (9:16, legenda opcional)
   → output/shorts/{cutId}/
 ```
@@ -55,9 +56,9 @@ metadata.json
 
 ```text
 youtubeUrl + cutBrief
-  → ingest → transcribe → analyze.gemini (long_cuts[])
+  → analyze.gemini.url
   → [approve]
-  → metadata + thumbnail
+  → ingest → metadata + thumbnail
   → render.long (16:9)
   → output/long/{cutId}/
 ```
@@ -89,14 +90,12 @@ Gemini devolve `cuts.json` com arrays `shorts[]` e `long_cuts[]`. Render dispara
 
 ```text
 youtubeUrl + cutBrief
-  → ingest (pode ser só áudio / 720p)
-  → transcribe
-  → analyze.gemini
+  → analyze.gemini.url
   → cuts.json + títulos sugeridos
-  → STOP (status: analyzed)
+  → STOP (status: completed ou awaiting_approval)
 ```
 
-Depois: `POST /v1/runs/{id}/approve` → dispara renders (pipeline 1, 2 ou 3).
+Depois: `POST /v1/runs/{id}/approve` → dispara download + produção.
 
 ---
 
@@ -106,9 +105,11 @@ Depois: `POST /v1/runs/{id}/approve` → dispara renders (pipeline 1, 2 ou 3).
 
 ```text
 youtubeUrl + cuts.json (fornecido pelo usuário)
+  → awaiting_approval (ou ingest direto se requireApproval=false)
+  → [approve]
   → ingest.youtube.download
   → SKIP analyze
-  → metadata + thumbnail + render
+  → metadata + thumbnail + subtitle + render
 ```
 
 `cuts.json` pode vir de:
@@ -188,5 +189,22 @@ Job type: `outro.append` no `worker-render`.
 | Repurpose completo | 3 | "hooks virais + blocos por tema" |
 | Testar prompt barato | 4 | qualquer |
 | Já tenho timestamps | 5 | N/A (cuts manual) |
+
+## Modelo de dados (migration 005)
+
+```text
+sources (youtube_video_id UNIQUE, local_video_path cache)
+  └── runs (source_id FK, pipeline execution)
+        └── cuts (relational rows; replaces runs.cuts JSONB)
+```
+
+**APIs novas:**
+
+- `GET /v1/runs?limit&offset&status&source_id`
+- `GET /v1/sources`
+- `GET /v1/sources/{id}`
+- `GET /v1/sources/{id}/runs`
+
+`GET /v1/runs/{id}/cuts` continua retornando o mesmo formato JSON (`shorts` + `longCuts`), agora montado a partir da tabela `cuts`.
 
 Ver [CUT-BRIEF.md](./CUT-BRIEF.md) para presets.

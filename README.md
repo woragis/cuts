@@ -35,6 +35,7 @@ Pipelines 6–8 (arquivo local, metadados-only, outro) ficam para fases posterio
 | [docs/MVP-PHASES.md](./docs/MVP-PHASES.md) | Fases F0–F11 com commits |
 | [docs/INPUT-OUTPUT.md](./docs/INPUT-OUTPUT.md) | Contratos API, cuts.json, manifest |
 | [docs/TEMPLATES.md](./docs/TEMPLATES.md) | Biblioteca de thumbnails |
+| [docs/SUBTITLE-TEMPLATES.md](./docs/SUBTITLE-TEMPLATES.md) | Biblioteca de legendas (burn-in shorts) |
 | [docs/CUT-BRIEF.md](./docs/CUT-BRIEF.md) | Presets e exemplos para Gemini |
 
 ---

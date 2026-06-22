@@ -264,7 +264,31 @@ flowchart TD
   F8 --> F11[F11 E2E]
   F9 --> F11
   F10 --> F11
+  F8 --> F12[F12 Subtitles]
+  F4 --> F12
+  F12 --> F11
 ```
+
+---
+
+## F12 — Subtitle templates + burn-in (planejado)
+
+**Objetivo:** legendas aprovadas no prototipo `legendas-mvp` em producao.
+
+**Seeds prontos:**
+- `backend/seeds/subtitle-templates/default.json`
+- `backend/seeds/subtitle-templates/mission.json`
+- `backend/migrations/004_subtitle_templates.sql`
+- `backend/worker/cuts_worker/subtitle_engine.py`
+
+**Entrega pendente:**
+- Whisper word timestamps em `transcribe.run`
+- `GET /v1/subtitle-templates` (+ CRUD opcional)
+- `subtitleTemplateId` no `POST /v1/runs`
+- Worker `subtitle.generate` → `subtitles.ass`
+- `render.short` com burn quando `burnSubtitles: true`
+
+**Commit:** `feat(subtitles): add template seeds and ASS engine`
 
 ---
 

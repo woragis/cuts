@@ -11,6 +11,7 @@ Schemas e formatos de arquivo compartilhados entre API, workers e frontend.
   "pipeline": "shorts_only",
   "youtubeUrl": "https://www.youtube.com/watch?v=XXXXXXXX",
   "thumbnailTemplateId": "550e8400-e29b-41d4-a716-446655440000",
+  "subtitleTemplateId": "b2222222-2222-2222-2222-222222222201",
   "cutBrief": "Achar momentos engraçados, reações fortes e frases polêmicas",
   "cutBriefPreset": "funny",
   "channelContext": "podcast de tecnologia em português",
@@ -44,6 +45,7 @@ Schemas e formatos de arquivo compartilhados entre API, workers e frontend.
 | `pipeline` | sim | Ver [PIPELINES.md](./PIPELINES.md) |
 | `youtubeUrl` | sim* | URL pública YouTube (* MVP) |
 | `thumbnailTemplateId` | sim | Template salvo em `/v1/templates` |
+| `subtitleTemplateId` | não | Template em `/v1/subtitle-templates`; default `default` se `burnSubtitles` |
 | `cutBrief` | sim** | Texto livre para Gemini (** exceto pipeline 5) |
 | `cutBriefPreset` | não | Atalho; expande para prompt base |
 | `cuts` | pipeline 5 | `cuts.json` completo ou parcial |
