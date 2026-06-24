@@ -1,14 +1,10 @@
 # Fase 4 — Correções por step + apperrors enriquecidos
 
-## Gemini `analyze.gemini.url` (HTTP 400)
+## Gemini `analyze.gemini.url` (HTTP 400) — **corrigido**
 
-`gemini-3.5-flash` pode rejeitar `fileData.fileUri` com URL YouTube (`INVALID_ARGUMENT`).
+`gemini-3.5-flash` rejeita `fileData.fileUri` com URL YouTube (`INVALID_ARGUMENT`).
 
-**Opções:**
-
-1. Pipeline `analyze_only` / URL: baixar metadados/transcript leve antes do Gemini (sem `file_uri`).
-2. Usar modelo com suporte explícito a vídeo URL (ex. família 2.5/3.x com URL context) — validar na doc Google.
-3. Fallback automático: se 400 em URL analyze → enfileirar `transcribe.run` + `analyze.transcript`.
+**Implementado:** `analyze_youtube_url` baixa legendas via yt-dlp (`captions.fetch_youtube`), grava `transcript.json`, e chama `analyze_transcript` (Gemini só com texto).
 
 ## Go API
 
