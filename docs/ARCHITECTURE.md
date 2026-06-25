@@ -193,7 +193,7 @@ Templates persistidos no DB + filesystem/S3:
 | FFmpeg no handler Go | Bloqueia API por minutos |
 | Lógica de corte no handler | Dificulta testes |
 | Dois donos de migração | Só Go aplica SQL |
-| Microserviço por worker | Overhead no MVP |
+| Microserviço por worker | Overhead no MVP — ver [ARCHITECTURE-SCALE.md](./ARCHITECTURE-SCALE.md) para escala |
 | Render antes de approve (default) | Shorts ruins publicados automaticamente |
 
 ---
@@ -204,3 +204,6 @@ Templates persistidos no DB + filesystem/S3:
 - [Lingo worker pipeline](../../Lokra/lingo/backend/worker/lingo_worker/pipeline.py)
 - [PIPELINES.md](./PIPELINES.md)
 - [MVP-PHASES.md](./MVP-PHASES.md)
+- [ROADMAP-POS-TREATMENT.md](./ROADMAP-POS-TREATMENT.md) — editorial, hub/spoke, publish YouTube
+- [ARCHITECTURE-SCALE.md](./ARCHITECTURE-SCALE.md) — escala multi-nicho, worker pools, scheduler
+- [DEPLOYMENT-RAILWAY.md](./DEPLOYMENT-RAILWAY.md) — deploy e réplicas no Railway

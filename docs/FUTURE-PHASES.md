@@ -49,6 +49,15 @@ Ver detalhes em [PIPELINES.md](./PIPELINES.md).
 | F23 | Tradução de metadata | EN/ES em `title.txt` / `description.txt` |
 | F24 | Integração postar-mvp | Upload direto ao YouTube após render ([woragis/canal/postar-mvp](../../woragis/canal/postar-mvp)) |
 
+**Evolução (2026-06):** F24+ detalhado em [ROADMAP-POS-TREATMENT.md](./ROADMAP-POS-TREATMENT.md) — editorial channels, hub/spoke, OAuth multi-conta, `publishAt` nativo YouTube (sem scheduler próprio), thumbnail sempre gpt-image-2.
+
+| Fase | Feature | Doc |
+|------|---------|-----|
+| F25–F28 | Editorial channels, source profiles, hub/spoke, treatment por editorial | [EDITORIAL-CHANNELS.md](./EDITORIAL-CHANNELS.md), [HUB-SPOKE-ROUTING.md](./HUB-SPOKE-ROUTING.md), [SOURCE-PROFILES.md](./SOURCE-PROFILES.md) |
+| F29–F30 | Thumbnail gpt-image-2, modos frame/character, model picker | [THUMBNAIL-MODES.md](./THUMBNAIL-MODES.md), [MODEL-SELECTION.md](./MODEL-SELECTION.md) |
+| F31–F32 | OAuth Google por satélite, upload + `publishAt` | [PUBLISH-YOUTUBE.md](./PUBLISH-YOUTUBE.md) |
+| — | Testes e validação | [TESTING-VALIDATION.md](./TESTING-VALIDATION.md) |
+
 ---
 
 ## Longo prazo — diferenciação
