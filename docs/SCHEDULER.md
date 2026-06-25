@@ -22,8 +22,8 @@ Decisão anterior (“sem scheduler na v1”) vale apenas para **YouTube isolado
 
 ```text
 ┌─────────────────┐     poll 30–60s      ┌──────────────────┐
-│  Postgres       │◀──────────────────────│  scheduler (Go)  │
-│  publish_plans  │                       │  cmd/scheduler   │
+│  Postgres       │◀──────────────────────│  scheduler       │
+│  publish_plans  │                       │  worker/scheduler│
 └─────────────────┘                       └────────┬─────────┘
                                                    │ LPUSH
                                                    ▼
