@@ -1,0 +1,232 @@
+
+<style>
+  .root { padding: 1.5rem 0; font-family: var(--font-sans); }
+  .section { margin-bottom: 1.75rem; }
+  .sec-title { font-size: 15px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 0.9rem; display: flex; align-items: center; gap: 8px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; }
+  .card { border-radius: var(--border-radius-lg); padding: 13px 15px; border: 0.5px solid var(--color-border-tertiary); }
+  .card-title { font-size: 13px; font-weight: 500; margin-bottom: 4px; }
+  .card-sub { font-size: 12px; line-height: 1.55; }
+  .c-p { background: #EEEDFE; border-color: #AFA9EC; }
+  .c-p .card-title { color: #3C3489; }
+  .c-p .card-sub { color: #534AB7; }
+  .c-t { background: #E1F5EE; border-color: #5DCAA5; }
+  .c-t .card-title { color: #085041; }
+  .c-t .card-sub { color: #0F6E56; }
+  .c-a { background: #FAEEDA; border-color: #EF9F27; }
+  .c-a .card-title { color: #633806; }
+  .c-a .card-sub { color: #854F0B; }
+  .c-c { background: #FAECE7; border-color: #F0997B; }
+  .c-c .card-title { color: #712B13; }
+  .c-c .card-sub { color: #993C1D; }
+  .c-b { background: #E6F1FB; border-color: #85B7EB; }
+  .c-b .card-title { color: #0C447C; }
+  .c-b .card-sub { color: #185FA5; }
+  .c-g { background: #EAF3DE; border-color: #97C459; }
+  .c-g .card-title { color: #27500A; }
+  .c-g .card-sub { color: #3B6D11; }
+  .divider { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 1.4rem 0; }
+  .timeline { display: flex; flex-direction: column; gap: 0; }
+  .tl-item { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .tl-item:last-child { border-bottom: none; }
+  .tl-badge { min-width: 72px; font-size: 11px; font-weight: 500; padding: 3px 8px; border-radius: 20px; text-align: center; margin-top: 1px; }
+  .badge-hook { background: #FCEBEB; color: #A32D2D; }
+  .badge-body { background: #E6F1FB; color: #0C447C; }
+  .badge-end  { background: #EAF3DE; color: #27500A; }
+  .tl-text { font-size: 13px; color: var(--color-text-primary); line-height: 1.5; }
+  .tl-sub { font-size: 12px; color: var(--color-text-secondary); }
+  .note { font-size: 12px; background: var(--color-background-secondary); border-left: 3px solid #AFA9EC; border-radius: 0 8px 8px 0; padding: 9px 12px; color: var(--color-text-secondary); line-height: 1.55; margin-top: 8px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  @media (max-width: 480px) { .grid2 { grid-template-columns: 1fr; } }
+</style>
+<div class="root">
+
+  <!-- ESTRUTURA DO VÍDEO -->
+  <div class="section">
+    <div class="sec-title"><i class="ti ti-layout-list" aria-hidden="true"></i> Estrutura padrão de um corte</div>
+    <div class="timeline">
+      <div class="tl-item">
+        <span class="tl-badge badge-hook">0–3s · Hook</span>
+        <div>
+          <div class="tl-text">Começa no pico — sem introdução, sem contexto inicial</div>
+          <div class="tl-sub">Música de fundo já presente, volume baixo. Sem intro animada aqui.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-badge badge-body">3s–fim · Corpo</span>
+        <div>
+          <div class="tl-text">Conteúdo do corte com legendas, moldura ativa, música consistente</div>
+          <div class="tl-sub">Edições de corte aplicadas onde necessário para manter ritmo.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-badge badge-end">Fim · Outro</span>
+        <div>
+          <div class="tl-text">Encerramento breve com identidade do canal (logo, call to action)</div>
+          <div class="tl-sub">Máximo 2–3s. Música fade out suave ou corte seco conforme o tom.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- LEGENDAS -->
+  <div class="section">
+    <div class="sec-title"><i class="ti ti-text-size" aria-hidden="true"></i> Legendas — regras de consistência</div>
+    <div class="cards">
+      <div class="card c-p">
+        <div class="card-title">Fonte única, sempre</div>
+        <div class="card-sub">Escolha uma fonte e nunca mude. Bold, sem serifa. Ex: Montserrat Bold, Anton, Bebas Neue.</div>
+      </div>
+      <div class="card c-p">
+        <div class="card-title">Posição fixa</div>
+        <div class="card-sub">Em 9:16, na faixa central inferior (entre 55–75% da altura). Nunca mude a posição entre vídeos.</div>
+      </div>
+      <div class="card c-p">
+        <div class="card-title">Cor com contorno</div>
+        <div class="card-sub">Texto branco + contorno preto de 3–5px. Legível em qualquer fundo, claro ou escuro.</div>
+      </div>
+      <div class="card c-p">
+        <div class="card-title">Destaque de palavra</div>
+        <div class="card-sub">Palavra atual em amarelo ou cor do canal — cria ritmo visual e ajuda a seguir a fala.</div>
+      </div>
+    </div>
+    <div class="note">Em vídeos 16:9 (horizontais), legendas ficam no terço inferior. Em 9:16 evite a faixa de 0–40% (área do rosto/gameplay) e 85–100% (ícone do perfil no TikTok/Shorts).</div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- MÚSICA -->
+  <div class="section">
+    <div class="sec-title"><i class="ti ti-music" aria-hidden="true"></i> Música característica</div>
+    <div class="cards">
+      <div class="card c-t">
+        <div class="card-title">1 tema recorrente</div>
+        <div class="card-sub">Escolha 1 música (ou 2–3 variações do mesmo estilo) e use em todos os cortes. Vira assinatura sonora.</div>
+      </div>
+      <div class="card c-t">
+        <div class="card-title">Volume calibrado</div>
+        <div class="card-sub">Música entre –18dB e –22dB enquanto tem fala. Sobe levemente nas partes sem voz.</div>
+      </div>
+      <div class="card c-t">
+        <div class="card-title">Estilo alinhado ao nicho</div>
+        <div class="card-sub">Lo-fi p/ conteúdo chill, synthwave p/ games, trap leve p/ reações intensas. Combine com a vibe da comunidade.</div>
+      </div>
+      <div class="card c-t">
+        <div class="card-title">Royalty-free obrigatório</div>
+        <div class="card-sub">Use Epidemic Sound, Pixabay Music ou LoFi Girl (para live). Evite copyright claim.</div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- OUTRO -->
+  <div class="section">
+    <div class="sec-title"><i class="ti ti-player-skip-forward" aria-hidden="true"></i> Outro — encerramento consistente</div>
+    <div class="grid2">
+      <div class="card c-c">
+        <div class="card-title">Elementos fixos</div>
+        <div class="card-sub">Logo do canal + nome + "inscreva-se" ou "ative o sino". Sempre igual, sempre no mesmo lugar.</div>
+      </div>
+      <div class="card c-c">
+        <div class="card-title">Duração</div>
+        <div class="card-sub">2–3s em Shorts/Reels. Em vídeos longos pode ter até 5s com cards do YouTube.</div>
+      </div>
+      <div class="card c-c">
+        <div class="card-title">Tom visual</div>
+        <div class="card-sub">Use as cores do canal. Fundo escuro com logo colorido funciona bem em qualquer plataforma.</div>
+      </div>
+      <div class="card c-c">
+        <div class="card-title">Sonoro</div>
+        <div class="card-sub">Pode ter um efeito sonoro característico (whoosh, ding, chime) antes do logo aparecer.</div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- MOLDURA -->
+  <div class="section">
+    <div class="sec-title"><i class="ti ti-border-outer" aria-hidden="true"></i> Moldura (especialmente em vídeos longos)</div>
+    <div class="cards">
+      <div class="card c-a">
+        <div class="card-title">Para que serve</div>
+        <div class="card-sub">Disfarça bordas pretas, adiciona identidade visual e cria espaço para informações extras (nome do streamer, logo).</div>
+      </div>
+      <div class="card c-a">
+        <div class="card-title">Em cortes 9:16 de gameplay</div>
+        <div class="card-sub">Gameplay centralizado, fundo desfocado do próprio gameplay nas laterais + moldura colorida com logo no topo.</div>
+      </div>
+      <div class="card c-a">
+        <div class="card-title">Em cortes 16:9 horizontais</div>
+        <div class="card-sub">Moldura discreta nas bordas com cor ou padrão do canal. Não compete com o conteúdo principal.</div>
+      </div>
+      <div class="card c-a">
+        <div class="card-title">Consistência</div>
+        <div class="card-sub">Mesma moldura, mesma posição do logo, mesma cor em todos os vídeos. É a "cara" do canal.</div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- EDIÇÕES DE CORTE -->
+  <div class="section">
+    <div class="sec-title"><i class="ti ti-cut" aria-hidden="true"></i> Edições de corte — quando e como usar</div>
+    <div class="cards">
+      <div class="card c-b">
+        <div class="card-title">Jump cut</div>
+        <div class="card-sub">Remove silêncio e travamentos. Em lives, corte tudo acima de 0.5s de pausa. Mantém ritmo acelerado.</div>
+      </div>
+      <div class="card c-b">
+        <div class="card-title">Zoom in rápido</div>
+        <div class="card-sub">No momento mais engraçado ou intenso. 1–2 frames de zoom (1.05×–1.15×) cria impacto sem ser exagerado.</div>
+      </div>
+      <div class="card c-b">
+        <div class="card-title">Corte seco + efeito sonoro</div>
+        <div class="card-sub">Troca brusca de cena + whoosh ou som de impacto. Muito efetivo em reações e momentos de virada.</div>
+      </div>
+      <div class="card c-b">
+        <div class="card-title">Replay</div>
+        <div class="card-sub">Momentos muito engraçados ou intensos merecem replay imediato, às vezes em câmera lenta. Use com moderação.</div>
+      </div>
+    </div>
+    <div class="note">A regra de ouro: toda edição deve servir ao conteúdo, não chamar atenção pra si mesma. Se o espectador notar a edição mais que o momento, foi longe demais.</div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- CHECKLIST -->
+  <div class="section">
+    <div class="sec-title"><i class="ti ti-checklist" aria-hidden="true"></i> Checklist antes de publicar</div>
+    <div class="cards">
+      <div class="card c-g">
+        <div class="card-title">✓ Hook nos 3 primeiros segundos</div>
+        <div class="card-sub">Começa no pico, sem introdução.</div>
+      </div>
+      <div class="card c-g">
+        <div class="card-title">✓ Legenda presente e sincronizada</div>
+        <div class="card-sub">Fonte, cor e posição corretas.</div>
+      </div>
+      <div class="card c-g">
+        <div class="card-title">✓ Música no volume certo</div>
+        <div class="card-sub">Presente, mas não compete com a voz.</div>
+      </div>
+      <div class="card c-g">
+        <div class="card-title">✓ Moldura ativa e consistente</div>
+        <div class="card-sub">Logo, cor e posição iguais aos outros vídeos.</div>
+      </div>
+      <div class="card c-g">
+        <div class="card-title">✓ Outro presente</div>
+        <div class="card-sub">Encerramento com identidade do canal.</div>
+      </div>
+      <div class="card c-g">
+        <div class="card-title">✓ Cortes de ritmo aplicados</div>
+        <div class="card-sub">Silêncios removidos, zoom nos picos.</div>
+      </div>
+    </div>
+  </div>
+
+</div>

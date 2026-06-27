@@ -1,0 +1,156 @@
+
+<style>
+  .root { padding: 1.5rem 0; font-family: var(--font-sans); }
+  .section { margin-bottom: 2rem; }
+  .section-title { font-size: 16px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 1rem; display: flex; align-items: center; gap: 8px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+  .card { border-radius: var(--border-radius-lg); padding: 14px 16px; border: 0.5px solid var(--color-border-tertiary); }
+  .card-title { font-size: 14px; font-weight: 500; margin-bottom: 4px; }
+  .card-sub { font-size: 12px; line-height: 1.5; }
+  .c-p { background: #EEEDFE; color: #26215C; border-color: #AFA9EC; }
+  .c-p .card-title { color: #3C3489; }
+  .c-p .card-sub { color: #534AB7; }
+  .c-t { background: #E1F5EE; color: #04342C; border-color: #5DCAA5; }
+  .c-t .card-title { color: #085041; }
+  .c-t .card-sub { color: #0F6E56; }
+  .c-a { background: #FAEEDA; color: #412402; border-color: #EF9F27; }
+  .c-a .card-title { color: #633806; }
+  .c-a .card-sub { color: #854F0B; }
+  .c-c { background: #FAECE7; color: #4A1B0C; border-color: #F0997B; }
+  .c-c .card-title { color: #712B13; }
+  .c-c .card-sub { color: #993C1D; }
+  .c-b { background: #E6F1FB; color: #042C53; border-color: #85B7EB; }
+  .c-b .card-title { color: #0C447C; }
+  .c-b .card-sub { color: #185FA5; }
+  .pill-row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .pill { padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 500; }
+  .step-row { display: flex; gap: 0; margin-bottom: 12px; }
+  .step { flex: 1; padding: 10px 12px; border: 0.5px solid var(--color-border-tertiary); font-size: 12px; text-align: center; background: var(--color-background-secondary); }
+  .step:first-child { border-radius: 8px 0 0 8px; }
+  .step:last-child { border-radius: 0 8px 8px 0; }
+  .step-label { font-size: 11px; color: var(--color-text-secondary); margin-top: 2px; }
+  .step-num { font-weight: 500; color: var(--color-text-primary); font-size: 13px; }
+  .arrow-row { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .arrow { font-size: 12px; color: var(--color-text-secondary); }
+  .divider { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 1.5rem 0; }
+</style>
+<div class="root">
+  <div class="section">
+    <div class="section-title"><i class="ti ti-target" aria-hidden="true"></i> 1. Defina o nicho dentro da comunidade</div>
+    <div class="cards">
+      <div class="card c-p">
+        <div class="card-title">Escolha o criador certo</div>
+        <div class="card-sub">Foque em 1–3 streamers/youtubers ativos com comunidade fiel e conteúdo abundante.</div>
+      </div>
+      <div class="card c-p">
+        <div class="card-title">Entenda o humor da tribo</div>
+        <div class="card-sub">Cada comunidade tem memes, vocabulário e referências próprias. Domine isso antes de editar.</div>
+      </div>
+      <div class="card c-p">
+        <div class="card-title">Valide a demanda</div>
+        <div class="card-sub">Existe canal de cortes desse criador? Quantos inscritos têm? Há espaço para concorrer?</div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="section">
+    <div class="section-title"><i class="ti ti-scissors" aria-hidden="true"></i> 2. Qualidade do corte</div>
+    <div class="cards">
+      <div class="card c-t">
+        <div class="card-title">Timing é tudo</div>
+        <div class="card-sub">Corte começa 1–2s antes do pico e termina no exato momento certo. Sem cortar o riso.</div>
+      </div>
+      <div class="card c-t">
+        <div class="card-title">Legenda sempre</div>
+        <div class="card-sub">Legendas aumentam retenção em até 40%. Fonte grande, contraste alto, sincronizada.</div>
+      </div>
+      <div class="card c-t">
+        <div class="card-title">Gancho nos 3 primeiros segundos</div>
+        <div class="card-sub">O algoritmo mede retenção logo no início. Comece no momento mais engraçado ou polêmico.</div>
+      </div>
+      <div class="card c-t">
+        <div class="card-title">Formato vertical (Shorts/Reels)</div>
+        <div class="card-sub">9:16 tem 3–5× mais alcance orgânico que horizontal nas plataformas atuais.</div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="section">
+    <div class="section-title"><i class="ti ti-clock" aria-hidden="true"></i> 3. Velocidade e volume</div>
+    <div class="step-row">
+      <div class="step">
+        <div class="step-num">Diário</div>
+        <div class="step-label">1–3 cortes</div>
+      </div>
+      <div class="step">
+        <div class="step-num">Semanal</div>
+        <div class="step-label">7–15 vídeos</div>
+      </div>
+      <div class="step">
+        <div class="step-num">Mensal</div>
+        <div class="step-label">30–60 publicações</div>
+      </div>
+    </div>
+    <div class="card c-a" style="margin-top:0">
+      <div class="card-title">Consistência > Perfeição</div>
+      <div class="card-sub">Canais de cortes crescem por volume. Poste antes de ficar perfeito; ajuste com os dados.</div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="section">
+    <div class="section-title"><i class="ti ti-users" aria-hidden="true"></i> 4. Distribuição e comunidade</div>
+    <div class="cards">
+      <div class="card c-c">
+        <div class="card-title">Esteja onde a tribo está</div>
+        <div class="card-sub">Discord, Reddit, Twitter/X, grupos do WhatsApp — compartilhe os cortes nos espaços da comunidade.</div>
+      </div>
+      <div class="card c-c">
+        <div class="card-title">Marque o criador original</div>
+        <div class="card-sub">Se ele repostar ou mencionar, você ganha toda a base dele de graça.</div>
+      </div>
+      <div class="card c-c">
+        <div class="card-title">Multi-plataforma</div>
+        <div class="card-sub">YouTube Shorts, TikTok e Instagram Reels ao mesmo tempo. Um vídeo, três chances de viralizar.</div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="section">
+    <div class="section-title"><i class="ti ti-chart-bar" aria-hidden="true"></i> 5. Métricas que importam</div>
+    <div class="pill-row">
+      <span class="pill c-b">Taxa de retenção &gt; 60%</span>
+      <span class="pill c-b">CTR do thumbnail &gt; 8%</span>
+      <span class="pill c-b">Crescimento semanal de inscritos</span>
+      <span class="pill c-b">Comentários por vídeo</span>
+      <span class="pill c-b">Impressões orgânicas</span>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="section">
+    <div class="section-title"><i class="ti ti-coins" aria-hidden="true"></i> 6. Monetização (quando crescer)</div>
+    <div class="cards">
+      <div class="card c-a">
+        <div class="card-title">AdSense</div>
+        <div class="card-sub">1.000 inscritos + 4.000h assistidas ou 10M de views em Shorts para monetizar no YouTube.</div>
+      </div>
+      <div class="card c-a">
+        <div class="card-title">Patrocínios</div>
+        <div class="card-sub">Marcas do nicho pagam bem. Com 10k–50k inscritos já é possível negociar.</div>
+      </div>
+      <div class="card c-a">
+        <div class="card-title">Loja / afiliados</div>
+        <div class="card-sub">Produtos da comunidade, links de afiliado de periféricos, jogos — renda extra sem depender de views.</div>
+      </div>
+    </div>
+  </div>
+</div>

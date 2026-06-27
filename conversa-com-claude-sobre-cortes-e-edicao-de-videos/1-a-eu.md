@@ -1,0 +1,1 @@
+o que é necessario para eu ter um canal de cortes de sucesso? supondo que eu faco focado em uma comunidade especifica.

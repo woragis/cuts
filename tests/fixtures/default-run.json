@@ -1,0 +1,37 @@
+{
+  "runId": "20260624T225609Z_eKxFuD3-pos",
+  "youtubeUrl": "https://www.youtube.com/watch?v=eKxFuD3-pos",
+  "videoId": "eKxFuD3-pos",
+  "durationSec": 6560,
+  "language": "pt",
+  "channelSlug": "politica-mbl",
+  "pipeline": "full",
+  "cutBrief": "Cortes políticos MBL / Arthur do Val. Priorizar tópicos completos (MEI, STF, Bolsonaro, Penélope vs MBL). Completude informativa > gancho no primeiro segundo. Shorts e longs: incluir setup mínimo; duração flexível quando a explicação exige.",
+  "models": {
+    "phaseA": "gemini-2.5-pro",
+    "phaseB": "gpt-4o",
+    "phaseCClaude": "claude-sonnet-4-6",
+    "phaseCOpenAI": "gpt-4o"
+  },
+  "transcript": {
+    "source": "whisper",
+    "reusePath": "fixtures/results/20260624T225609Z_eKxFuD3-pos/transcript.json"
+  },
+  "baselineResults": "fixtures/results/20260624T225609Z_eKxFuD3-pos",
+  "targets": {
+    "shorts": { "count": 12, "minSec": 45, "idealSec": 70, "maxSec": 130 },
+    "longCuts": { "count": 4, "minSec": 240, "idealSec": 480, "maxSec": 900 }
+  },
+  "merge": {
+    "transcriptPadBeforeSec": 240,
+    "transcriptPadAfterSec": 120,
+    "transcriptMaxSegmentsBefore": 120,
+    "transcriptMaxSegmentsInCluster": 200,
+    "transcriptMaxSegmentsAfter": 60,
+    "longClusterMinDurationSec": 180,
+    "longClusterPadBeforeSec": 360,
+    "longClusterPadAfterSec": 180,
+    "longClusterMaxSegmentsInCluster": 350,
+    "extendForMissingContext": true
+  }
+}

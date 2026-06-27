@@ -1,0 +1,291 @@
+
+<style>
+.root{padding:1rem 0;font-family:var(--font-sans)}
+.sec{font-size:13px;font-weight:500;color:var(--color-text-primary);margin:16px 0 9px;display:flex;align-items:center;gap:7px}
+.sec:first-child{margin-top:0}
+.divider{border:none;border-top:0.5px solid var(--color-border-tertiary);margin:14px 0}
+.note{font-size:12px;background:var(--color-background-secondary);border-left:3px solid var(--color-border-secondary);border-radius:0 8px 8px 0;padding:9px 12px;color:var(--color-text-secondary);line-height:1.55;margin-top:8px}
+.ok{border-left-color:#1D9E75}.warn{border-left-color:#BA7517}.info{border-left-color:#7F77DD}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:10px;margin-bottom:10px}
+.card{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:11px 13px}
+.ct{font-size:12px;font-weight:500;margin-bottom:4px}
+.cs{font-size:12px;color:var(--color-text-secondary);line-height:1.55}
+.c-p .ct{color:#3C3489}.c-p{background:#EEEDFE;border-color:#AFA9EC}
+.c-p .cs{color:#534AB7}
+.c-t .ct{color:#085041}.c-t{background:#E1F5EE;border-color:#5DCAA5}
+.c-t .cs{color:#0F6E56}
+.c-a .ct{color:#633806}.c-a{background:#FAEEDA;border-color:#EF9F27}
+.c-a .cs{color:#854F0B}
+.c-b .ct{color:#0C447C}.c-b{background:#E6F1FB;border-color:#85B7EB}
+.c-b .cs{color:#185FA5}
+.c-g .ct{color:#27500A}.c-g{background:#EAF3DE;border-color:#97C459}
+.c-g .cs{color:#3B6D11}
+.c-r .ct{color:#791F1F}.c-r{background:#FCEBEB;border-color:#F09595}
+.c-r .cs{color:#A32D2D}
+.pill{display:inline-block;font-size:11px;font-weight:500;padding:2px 8px;border-radius:20px;margin:2px 3px 2px 0}
+.pg{background:#E1F5EE;color:#085041}
+.pa{background:#FAEEDA;color:#633806}
+.pr{background:#FCEBEB;color:#A32D2D}
+.pp{background:#EEEDFE;color:#3C3489}
+.pb{background:#E6F1FB;color:#0C447C}
+.table-wrap{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);overflow:hidden;margin-bottom:10px}
+.th-row{display:grid;grid-template-columns:1.3fr 1fr 1fr}
+.th{font-size:11px;font-weight:500;color:var(--color-text-secondary);padding:6px 10px;background:var(--color-background-secondary);border-bottom:0.5px solid var(--color-border-tertiary)}
+.tr{display:grid;grid-template-columns:1.3fr 1fr 1fr;border-bottom:0.5px solid var(--color-border-tertiary)}
+.tr:last-child{border-bottom:none}
+.td{font-size:12px;padding:8px 10px;color:var(--color-text-primary);line-height:1.4}
+.td.lbl{color:var(--color-text-secondary);font-weight:500}
+.mock-wrap{margin:10px 0;display:flex;gap:10px;flex-wrap:wrap}
+.mock{border:0.5px solid var(--color-border-tertiary);border-radius:10px;overflow:hidden;flex:1;min-width:120px}
+.mock-title{font-size:11px;font-weight:500;color:var(--color-text-secondary);padding:6px 9px;background:var(--color-background-secondary);border-bottom:0.5px solid var(--color-border-tertiary)}
+.mock-body{padding:8px 9px;font-size:11px;color:var(--color-text-secondary);line-height:1.6}
+.tag{display:inline-block;padding:1px 7px;border-radius:12px;font-size:10px;font-weight:500;margin-bottom:3px}
+.tag-top{background:#E6F1FB;color:#0C447C}
+.tag-bot{background:#FAEEDA;color:#633806}
+.tag-ctr{background:#EAF3DE;color:#27500A}
+.timeline-bar{display:flex;height:28px;border-radius:6px;overflow:hidden;margin-bottom:6px;border:0.5px solid var(--color-border-tertiary)}
+.tl-seg{display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:500}
+.cta-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.cta-card{flex:1;min-width:140px;border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:10px 12px}
+.cta-time{font-size:11px;font-weight:500;padding:2px 8px;border-radius:12px;display:inline-block;margin-bottom:5px}
+.cta-name{font-size:12px;font-weight:500;margin-bottom:3px}
+.cta-sub{font-size:11px;color:var(--color-text-secondary);line-height:1.5}
+</style>
+<div class="root">
+
+<div class="sec"><i class="ti ti-border-outer" aria-hidden="true"></i> Moldura — quando usar e como</div>
+<div class="cards">
+  <div class="card c-p">
+    <div class="ct">9:16 com gameplay (principal uso)</div>
+    <div class="cs">Gameplay centralizado, fundo desfocado do próprio gameplay nas laterais. Moldura com cor/logo do canal no topo e base. Esconde as barras pretas.</div>
+  </div>
+  <div class="card c-p">
+    <div class="ct">9:16 com webcam + gameplay</div>
+    <div class="cs">Gameplay ocupa 60–70% do frame. Webcam em canto superior. Moldura delimita e une os dois elementos com identidade visual.</div>
+  </div>
+  <div class="card c-p">
+    <div class="ct">16:9 longo</div>
+    <div class="cs">Moldura fina nas bordas (8–16px) ou apenas no topo/base. Discreta — não compete com o conteúdo. Logo pequeno fixo no canto.</div>
+  </div>
+  <div class="card c-t">
+    <div class="ct">Sem moldura (minimalista)</div>
+    <div class="cs">Também é uma escolha válida. Marca d'água substitui. Funciona bem para cortes de gameplay limpo sem webcam.</div>
+  </div>
+</div>
+
+<div class="sec" style="margin-top:4px"><i class="ti ti-layout-navbar" aria-hidden="true"></i> Zonas da moldura</div>
+<div class="mock-wrap">
+  <div class="mock">
+    <div class="mock-title">9:16 vertical</div>
+    <div class="mock-body">
+      <span class="tag tag-top">Topo — logo + nome do canal</span><br>
+      <span class="tag" style="background:#F1EFE8;color:#5F5E5A;margin:3px 0">Meio — conteúdo do vídeo</span><br>
+      <span class="tag tag-bot">Base — cor do canal (fina)</span><br>
+      <div style="margin-top:5px">Moldura lateral: cor sólida ou gameplay desfocado.</div>
+    </div>
+  </div>
+  <div class="mock">
+    <div class="mock-title">16:9 horizontal</div>
+    <div class="mock-body">
+      <span class="tag tag-top">Topo — barra fina opcional</span><br>
+      <span class="tag" style="background:#F1EFE8;color:#5F5E5A;margin:3px 0">Centro — conteúdo ocupa tudo</span><br>
+      <span class="tag tag-bot">Base — barra fina opcional</span><br>
+      <div style="margin-top:5px">Logo fixo no canto inferior direito, opacidade 40–60%.</div>
+    </div>
+  </div>
+</div>
+
+<div class="note info">A moldura é o elemento mais "de canal" que existe — ela aparece em todo frame, todo segundo. Por isso a cor, fonte e logo precisam ser rigorosamente os mesmos em todos os vídeos. Se você mudar o esquema de cores, vai parecer que é um canal diferente.</div>
+
+<hr class="divider">
+
+<div class="sec"><i class="ti ti-droplet" aria-hidden="true"></i> Marca d'água — posição, tamanho e opacidade</div>
+<div class="table-wrap">
+  <div class="th-row">
+    <div class="th">Parâmetro</div>
+    <div class="th">Curto 9:16</div>
+    <div class="th">Longo 16:9</div>
+  </div>
+  <div class="tr">
+    <div class="td lbl">Posição</div>
+    <div class="td">Canto sup. esquerdo ou direito (acima das legendas)</div>
+    <div class="td">Canto inferior direito (padrão YouTube)</div>
+  </div>
+  <div class="tr">
+    <div class="td lbl">Tamanho</div>
+    <div class="td">5–8% da largura do frame</div>
+    <div class="td">4–6% da largura do frame</div>
+  </div>
+  <div class="tr">
+    <div class="td lbl">Opacidade</div>
+    <div class="td">50–70%</div>
+    <div class="td">40–60%</div>
+  </div>
+  <div class="tr">
+    <div class="td lbl">Tipo</div>
+    <div class="td">Logo + nome ou só logo</div>
+    <div class="td">Logo + nome ou só logo</div>
+  </div>
+  <div class="tr">
+    <div class="td lbl">Cor</div>
+    <div class="td">Branco com contorno preto, ou cor do canal</div>
+    <div class="td">Branco com contorno, ou monocromático</div>
+  </div>
+  <div class="tr">
+    <div class="td lbl">Animação</div>
+    <div class="td">Estático. Sem piscar ou pulsar.</div>
+    <div class="td">Estático. Sem piscar ou pulsar.</div>
+  </div>
+</div>
+<div class="note warn">Marca d'água muito opaca (acima de 80%) irrita o espectador e parece despero. Muito transparente (abaixo de 30%) não serve para nada. O ponto ideal é ser visível sem incomodar.</div>
+
+<hr class="divider">
+
+<div class="sec"><i class="ti ti-arrows-exchange" aria-hidden="true"></i> Tipos de transição — guia completo de uso</div>
+<div class="table-wrap">
+  <div class="th-row" style="grid-template-columns:1.2fr 0.7fr 0.7fr 1.4fr">
+    <div class="th">Transição</div>
+    <div class="th">Curto</div>
+    <div class="th">Longo</div>
+    <div class="th">Quando usar</div>
+  </div>
+  <div class="tr" style="grid-template-columns:1.2fr 0.7fr 0.7fr 1.4fr;border-bottom:0.5px solid var(--color-border-tertiary)">
+    <div class="td lbl">Corte seco</div>
+    <div class="td"><span class="pill pg">padrão</span></div>
+    <div class="td"><span class="pill pg">padrão</span></div>
+    <div class="td" style="font-size:11px">Em tudo. É a transição invisível. Nunca falha.</div>
+  </div>
+  <div class="tr" style="grid-template-columns:1.2fr 0.7fr 0.7fr 1.4fr;border-bottom:0.5px solid var(--color-border-tertiary)">
+    <div class="td lbl">Jump cut</div>
+    <div class="td"><span class="pill pg">sempre</span></div>
+    <div class="td"><span class="pill pg">sempre</span></div>
+    <div class="td" style="font-size:11px">Remover silêncio no mesmo ângulo de câmera.</div>
+  </div>
+  <div class="tr" style="grid-template-columns:1.2fr 0.7fr 0.7fr 1.4fr;border-bottom:0.5px solid var(--color-border-tertiary)">
+    <div class="td lbl">Zoom in rápido</div>
+    <div class="td"><span class="pill pg">bom</span></div>
+    <div class="td"><span class="pill pa">moderado</span></div>
+    <div class="td" style="font-size:11px">No pico do momento (risada, susto, reação). Máx 1×/corte.</div>
+  </div>
+  <div class="tr" style="grid-template-columns:1.2fr 0.7fr 0.7fr 1.4fr;border-bottom:0.5px solid var(--color-border-tertiary)">
+    <div class="td lbl">Zoom out</div>
+    <div class="td"><span class="pill pa">raro</span></div>
+    <div class="td"><span class="pill pa">raro</span></div>
+    <div class="td" style="font-size:11px">Depois de um pico, para "respirar". Efeito de revelação.</div>
+  </div>
+  <div class="tr" style="grid-template-columns:1.2fr 0.7fr 0.7fr 1.4fr;border-bottom:0.5px solid var(--color-border-tertiary)">
+    <div class="td lbl">Whoosh (áudio + corte)</div>
+    <div class="td"><span class="pill pa">ocasional</span></div>
+    <div class="td"><span class="pill pa">ocasional</span></div>
+    <div class="td" style="font-size:11px">Virada de tema ou início de segmento novo. Som de "passagem".</div>
+  </div>
+  <div class="tr" style="grid-template-columns:1.2fr 0.7fr 0.7fr 1.4fr;border-bottom:0.5px solid var(--color-border-tertiary)">
+    <div class="td lbl">Flash branco/preto</div>
+    <div class="td"><span class="pill pa">ocasional</span></div>
+    <div class="td"><span class="pill pr">evitar</span></div>
+    <div class="td" style="font-size:11px">Impacto visual intenso. Só em momentos de choque real.</div>
+  </div>
+  <div class="tr" style="grid-template-columns:1.2fr 0.7fr 0.7fr 1.4fr;border-bottom:0.5px solid var(--color-border-tertiary)">
+    <div class="td lbl">Replay normal</div>
+    <div class="td"><span class="pill pp">especial</span></div>
+    <div class="td"><span class="pill pp">especial</span></div>
+    <div class="td" style="font-size:11px">O melhor momento do corte, repetido imediatamente.</div>
+  </div>
+  <div class="tr" style="grid-template-columns:1.2fr 0.7fr 0.7fr 1.4fr;border-bottom:0.5px solid var(--color-border-tertiary)">
+    <div class="td lbl">Replay em câmera lenta</div>
+    <div class="td"><span class="pill pp">especial</span></div>
+    <div class="td"><span class="pill pp">especial</span></div>
+    <div class="td" style="font-size:11px">Momentos de gameplay, jogada ou reação física intensa.</div>
+  </div>
+  <div class="tr" style="grid-template-columns:1.2fr 0.7fr 0.7fr 1.4fr;border-bottom:0.5px solid var(--color-border-tertiary)">
+    <div class="td lbl">Fade to black</div>
+    <div class="td"><span class="pill pr">nunca</span></div>
+    <div class="td"><span class="pill pa">raro</span></div>
+    <div class="td" style="font-size:11px">Só no longo: passagem de tempo grande ou encerramento.</div>
+  </div>
+  <div class="tr" style="grid-template-columns:1.2fr 0.7fr 0.7fr 1.4fr;border-bottom:0.5px solid var(--color-border-tertiary)">
+    <div class="td lbl">Dissolve / crossfade</div>
+    <div class="td"><span class="pill pr">nunca</span></div>
+    <div class="td"><span class="pill pr">nunca</span></div>
+    <div class="td" style="font-size:11px">Lento demais. Parece erro de edição em conteúdo de entretenimento.</div>
+  </div>
+  <div class="tr" style="grid-template-columns:1.2fr 0.7fr 0.7fr 1.4fr">
+    <div class="td lbl">Wipe / slide / spin / glitch</div>
+    <div class="td"><span class="pill pr">nunca</span></div>
+    <div class="td"><span class="pill pr">nunca</span></div>
+    <div class="td" style="font-size:11px">Parece template de iniciante. Destrói a identidade do canal.</div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="sec"><i class="ti ti-hand-click" aria-hidden="true"></i> CTAs — "inscreva-se", "curta", "siga" — quando aparecem</div>
+
+<div style="margin-bottom:10px">
+  <div style="font-size:12px;color:var(--color-text-secondary);margin-bottom:6px">Timeline de um vídeo longo (exemplo: 5 min)</div>
+  <div class="timeline-bar">
+    <div class="tl-seg" style="width:5%;background:#FCEBEB;color:#A32D2D">Hook</div>
+    <div class="tl-seg" style="width:30%;background:#F1EFE8;color:#5F5E5A">Corpo 1</div>
+    <div class="tl-seg" style="width:5%;background:#FAEEDA;color:#633806">CTA 1</div>
+    <div class="tl-seg" style="width:30%;background:#F1EFE8;color:#5F5E5A">Corpo 2</div>
+    <div class="tl-seg" style="width:5%;background:#FAEEDA;color:#633806">CTA 2</div>
+    <div class="tl-seg" style="width:20%;background:#F1EFE8;color:#5F5E5A">Corpo 3</div>
+    <div class="tl-seg" style="width:5%;background:#E1F5EE;color:#085041">Outro</div>
+  </div>
+</div>
+
+<div class="cta-row">
+  <div class="cta-card">
+    <div class="cta-time" style="background:#FCEBEB;color:#A32D2D">Nunca no hook</div>
+    <div class="cta-name">0–15s — proibido</div>
+    <div class="cta-sub">O espectador ainda está decidindo se fica. CTA aqui afasta.</div>
+  </div>
+  <div class="cta-card">
+    <div class="cta-time" style="background:#FAEEDA;color:#633806">30–50% do vídeo</div>
+    <div class="cta-name">1º CTA — "curta se estiver gostando"</div>
+    <div class="cta-sub">Aparece depois do primeiro pico. Espectador já está engajado.</div>
+  </div>
+  <div class="cta-card">
+    <div class="cta-time" style="background:#FAEEDA;color:#633806">70–80% do vídeo</div>
+    <div class="cta-name">2º CTA — "inscreva-se"</div>
+    <div class="cta-sub">Perto do fim, quem chegou até aqui provavelmente vai se inscrever.</div>
+  </div>
+  <div class="cta-card">
+    <div class="cta-time" style="background:#E1F5EE;color:#085041">Outro (fim)</div>
+    <div class="cta-name">CTA final — tudo junto</div>
+    <div class="cta-sub">Logo + "inscreva-se" + ative o sino + próximo vídeo. Máx 3–4s.</div>
+  </div>
+</div>
+
+<div class="table-wrap">
+  <div class="th-row" style="grid-template-columns:1fr 1fr 1fr">
+    <div class="th">Formato</div>
+    <div class="th">Curto</div>
+    <div class="th">Longo</div>
+  </div>
+  <div class="tr">
+    <div class="td lbl">Qtd de CTAs no vídeo</div>
+    <div class="td">0–1 (só no fim)</div>
+    <div class="td">2–3 ao longo + fim</div>
+  </div>
+  <div class="tr">
+    <div class="td lbl">Tipo mais eficaz</div>
+    <div class="td">Falado + visual no outro</div>
+    <div class="td">Visual em overlay + falado</div>
+  </div>
+  <div class="tr">
+    <div class="td lbl">Duração do CTA</div>
+    <div class="td">1–2s no máximo</div>
+    <div class="td">2–4s com animação</div>
+  </div>
+  <div class="tr">
+    <div class="td lbl">Tom</div>
+    <div class="td">Rápido, direto, seco</div>
+    <div class="td">Natural, como se fosse pedido pessoal</div>
+  </div>
+</div>
+
+<div class="note ok">No vídeo curto, o melhor CTA é o próprio conteúdo ser bom. Se o espectador gostar, ele vai clicar no perfil sozinho. CTAs longos em Shorts destroem a retenção e o algoritmo pune.</div>
+<div class="note info">No vídeo longo, o CTA falado (o streamer ou você em voz over) converte mais que o visual. Algo como "se você curtiu esse momento, inscreve que tem mais" funciona melhor que um banner piscando.</div>
+
+</div>

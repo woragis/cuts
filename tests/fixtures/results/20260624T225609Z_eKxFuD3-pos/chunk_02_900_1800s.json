@@ -1,0 +1,41 @@
+{
+  "label": "chunk_02_900_1800s",
+  "strategy": "file_first_MEDIA_RESOLUTION_LOW_fps=0.5",
+  "ok": true,
+  "mediaResolution": "MEDIA_RESOLUTION_LOW",
+  "fps": 0.5,
+  "httpStatus": 200,
+  "error": null,
+  "elapsedSec": 42.73,
+  "clipStartSec": 900.0,
+  "clipEndSec": 1800.0,
+  "cuts": {
+    "shorts": [
+      {
+        "id": "short-01",
+        "startSec": 900,
+        "endSec": 938,
+        "title": "A Competição de Vitimismo",
+        "reason": "Arthur critica o PSOL e a esquerda por criarem uma competição de vitimismo, usando tom expressivo.",
+        "score": 0.85
+      },
+      {
+        "id": "short-02",
+        "startSec": 944,
+        "endSec": 975,
+        "title": "Arthur Reage a Erika Hilton",
+        "reason": "Reação sarcástica de Arthur à fala de Erika Hilton sobre privilégio cis e branco dentro do próprio partido.",
+        "score": 0.82
+      },
+      {
+        "id": "short-03",
+        "startSec": 979,
+        "endSec": 999,
+        "title": "Fundo Social de 2026 Esgotado?",
+        "reason": "Arthur comenta indignado sobre o governo já ter comprometido 95% dos recursos do Fundo Social de 2026.",
+        "score": 0.88
+      }
+    ],
+    "longCuts": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "shorts": [
+    {
+      "id": "short-01",
+      "startSec": 15,
+      "endSec": 65,
+      "title": "Por que o Rafinha está sendo cancelado?",
+      "reason": "Funny banter about being late because of cheese bread, transitioning into a sharp and humorous critique of the Brazilian national soccer team.",
+      "score": 0.85
+    },
+    {
+      "id": "short-02",
+      "startSec": 140,
+      "endSec": 190,
+      "title": "Jogador ganhando em Euro com problema financeiro?",
+      "reason": "The host reacts with disbelief to reports of a soccer player earning in Euros having financial problems, creating a highly engaging and funny moment.",
+      "score": 0.9
+    },
+    {
+      "id": "short-01",
+      "startSec": 900,
+      "endSec": 938,
+      "title": "A Competição de Vitimismo",
+      "reason": "Arthur critica o PSOL e a esquerda por criarem uma competição de vitimismo, usando tom expressivo.",
+      "score": 0.85
+    },
+    {
+      "id": "short-02",
+      "startSec": 944,
+      "endSec": 975,
+      "title": "Arthur Reage a Erika Hilton",
+      "reason": "Reação sarcástica de Arthur à fala de Erika Hilton sobre privilégio cis e branco dentro do próprio partido.",
+      "score": 0.82
+    },
+    {
+      "id": "short-03",
+      "startSec": 979,
+      "endSec": 999,
+      "title": "Fundo Social de 2026 Esgotado?",
+      "reason": "Arthur comenta indignado sobre o governo já ter comprometido 95% dos recursos do Fundo Social de 2026.",
+      "score": 0.88
+    },
+    {
+      "id": "short-01",
+      "startSec": 2014,
+      "endSec": 2095,
+      "title": "A dura realidade do MEI no Brasil",
+      "reason": "O palestrante faz contas ao vivo mostrando a inviabilidade de um MEI contratar funcionários com o teto atual, gerando forte identificação e revolta.",
+      "score": 0.9
+    },
+    {
+      "id": "short-02",
+      "startSec": 2255,
+      "endSec": 2295,
+      "title": "A desculpa mais esfarrapada da política",
+      "reason": "O apresentador cai na gargalhada ao expor uma justificativa política absurda sobre compra de imóvel, gerando um momento cômico e viral.",
+      "score": 0.85
+    },
+    {
+      "id": "short-01",
+      "startSec": 2978,
+      "endSec": 3018,
+      "title": "The Titanic Iceberg Metaphor in Politics",
+      "reason": "The speaker uses a vivid hand gesture and Titanic metaphor to illustrate political foresight and public delay, creating a strong conceptual hook.",
+      "score": 0.85
+    },
+    {
+      "id": "short-02",
+      "startSec": 3340,
+      "endSec": 3380,
+      "title": "Hilarious Reaction to Carlos Bolsonaro's Campaign",
+      "reason": "The speaker mockingly agrees with Carlos Bolsonaro's campaign statements with high energy and sarcastic humor, delivering a highly entertaining reaction.",
+      "score": 0.95
+    }
+  ],
+  "longCuts": [],
+  "analyzeMode": "url_chunked_test"
+}

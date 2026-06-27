@@ -1,0 +1,33 @@
+{
+  "label": "chunk_04_2700_3600s",
+  "strategy": "file_first_MEDIA_RESOLUTION_LOW_fps=0.5",
+  "ok": true,
+  "mediaResolution": "MEDIA_RESOLUTION_LOW",
+  "fps": 0.5,
+  "httpStatus": 200,
+  "error": null,
+  "elapsedSec": 41.59,
+  "clipStartSec": 2700.0,
+  "clipEndSec": 3600.0,
+  "cuts": {
+    "shorts": [
+      {
+        "id": "short-01",
+        "startSec": 2978,
+        "endSec": 3018,
+        "title": "The Titanic Iceberg Metaphor in Politics",
+        "reason": "The speaker uses a vivid hand gesture and Titanic metaphor to illustrate political foresight and public delay, creating a strong conceptual hook.",
+        "score": 0.85
+      },
+      {
+        "id": "short-02",
+        "startSec": 3340,
+        "endSec": 3380,
+        "title": "Hilarious Reaction to Carlos Bolsonaro's Campaign",
+        "reason": "The speaker mockingly agrees with Carlos Bolsonaro's campaign statements with high energy and sarcastic humor, delivering a highly entertaining reaction.",
+        "score": 0.95
+      }
+    ],
+    "longCuts": []
+  }
+}

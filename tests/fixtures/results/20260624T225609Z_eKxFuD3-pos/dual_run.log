@@ -1,0 +1,31 @@
+output=scripts\results\20260624T225609Z_eKxFuD3-pos
+video_cuts=scripts\results\20260624T225609Z_eKxFuD3-pos\cuts_merged.json
+
+=== Transcript (Whisper OpenAI) ===
+  reusing scripts\results\20260624T225609Z_eKxFuD3-pos\transcript.json
+  source=whisper_openai segments=2382 duration=6550s
+
+=== Transcript analyze (Claude) ===
+  caption chunk 1 (0–900s) segments=372
+  pause 65s before next caption chunk (rate limit)
+  caption chunk 2 (900–1800s) segments=298
+  pause 65s before next caption chunk (rate limit)
+  caption chunk 3 (1800–2700s) segments=330
+  pause 65s before next caption chunk (rate limit)
+  caption chunk 4 (2700–3600s) segments=321
+  pause 65s before next caption chunk (rate limit)
+  caption chunk 5 (3600–4500s) segments=255
+  pause 65s before next caption chunk (rate limit)
+  caption chunk 6 (4500–5400s) segments=378
+  pause 65s before next caption chunk (rate limit)
+  caption chunk 7 (5400–6300s) segments=349
+  pause 65s before next caption chunk (rate limit)
+  caption chunk 8 (6300–6550s) segments=87
+
+=== Merge (Claude) ===
+  merge: 11 clusters, 40 candidates
+
+=== DONE ===
+validation.md -> scripts\results\20260624T225609Z_eKxFuD3-pos\validation.md
+merged shorts: 22
+merged longCuts: 6

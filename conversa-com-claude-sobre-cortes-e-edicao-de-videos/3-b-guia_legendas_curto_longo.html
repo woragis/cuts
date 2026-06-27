@@ -1,0 +1,66 @@
+
+<style>
+.root{padding:1rem 0;font-family:var(--font-sans)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+@media(max-width:500px){.cols{grid-template-columns:1fr}}
+.col-head{font-size:13px;font-weight:500;padding:8px 12px;border-radius:8px 8px 0 0;border:0.5px solid var(--color-border-tertiary);border-bottom:none}
+.col-head.curto{background:#E1F5EE;color:#085041}
+.col-head.longo{background:#EEEDFE;color:#3C3489}
+.col-body{border:0.5px solid var(--color-border-tertiary);border-radius:0 0 8px 8px;overflow:hidden}
+.row{display:flex;gap:0;border-bottom:0.5px solid var(--color-border-tertiary);align-items:stretch}
+.row:last-child{border-bottom:none}
+.row-label{font-size:11px;font-weight:500;color:var(--color-text-secondary);padding:8px 10px;min-width:90px;border-right:0.5px solid var(--color-border-tertiary);display:flex;align-items:center;background:var(--color-background-secondary)}
+.row-val{font-size:12px;color:var(--color-text-primary);padding:8px 10px;line-height:1.5;flex:1;display:flex;align-items:center}
+.note{font-size:12px;background:var(--color-background-secondary);border-left:3px solid #AFA9EC;border-radius:0 8px 8px 0;padding:9px 12px;color:var(--color-text-secondary);line-height:1.55;margin-bottom:14px}
+.warn{border-left-color:#EF9F27;background:#FAEEDA22}
+.warn .wt{color:#633806;font-weight:500}
+.sec{font-size:13px;font-weight:500;color:var(--color-text-primary);margin:16px 0 8px;display:flex;align-items:center;gap:6px}
+.divider{border:none;border-top:0.5px solid var(--color-border-tertiary);margin:14px 0}
+</style>
+<div class="root">
+
+<div class="sec"><i class="ti ti-subtitles" aria-hidden="true"></i> Configurações por formato</div>
+
+<div class="cols">
+  <div>
+    <div class="col-head curto">Vídeo curto — 9:16 (Shorts / Reels / TikTok)</div>
+    <div class="col-body">
+      <div class="row"><div class="row-label">Legenda?</div><div class="row-val">Sempre. Obrigatória.</div></div>
+      <div class="row"><div class="row-label">Fonte</div><div class="row-val">Bold, sem serifa. Mínimo 72–90px no arquivo (≈ 5–6% da altura).</div></div>
+      <div class="row"><div class="row-label">Posição</div><div class="row-val">Entre 55–72% da altura do frame. Nunca no topo ou embaixo de tudo.</div></div>
+      <div class="row"><div class="row-label">Cor</div><div class="row-val">Branco + contorno preto 4–6px. Palavra ativa em amarelo ou cor do canal.</div></div>
+      <div class="row"><div class="row-label">Palavras/linha</div><div class="row-val">2–4 palavras por linha. Uma linha por vez.</div></div>
+      <div class="row"><div class="row-label">Estilo</div><div class="row-val">Destaque animado na palavra falada (word-by-word).</div></div>
+      <div class="row"><div class="row-label">Zonas proibidas</div><div class="row-val">0–35% (rosto/gameplay). 85–100% (ícone do perfil).</div></div>
+    </div>
+  </div>
+  <div>
+    <div class="col-head longo">Vídeo longo — 16:9 (YouTube tradicional)</div>
+    <div class="col-body">
+      <div class="row"><div class="row-label">Legenda?</div><div class="row-val">Sim. Aumenta retenção e acessibilidade.</div></div>
+      <div class="row"><div class="row-label">Fonte</div><div class="row-val">Bold, sem serifa. Menor que no curto — 52–64px no arquivo.</div></div>
+      <div class="row"><div class="row-label">Posição</div><div class="row-val">Terço inferior: entre 80–90% da altura. Consistente em todos os vídeos.</div></div>
+      <div class="row"><div class="row-label">Cor</div><div class="row-val">Branco + contorno preto. Destaque de palavra pode ser mais sutil.</div></div>
+      <div class="row"><div class="row-label">Palavras/linha</div><div class="row-val">4–7 palavras por linha. Até 2 linhas simultâneas.</div></div>
+      <div class="row"><div class="row-label">Estilo</div><div class="row-val">Word-by-word ou por frase — ambos funcionam. Menos frenético.</div></div>
+      <div class="row"><div class="row-label">Zonas proibidas</div><div class="row-val">Não cobrir moldura, logo ou qualquer elemento fixo do canal.</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="note warn"><span class="wt">Por que vídeo longo precisa de legenda?</span> Boa parte dos espectadores assiste no celular sem som, em locais públicos ou com o áudio baixo. Sem legenda, você perde a retenção dessas pessoas. Além disso, a legenda ajuda o espectador a acompanhar piadas, nomes e gírias da comunidade — principalmente em streamers que falam rápido.</div>
+
+<hr class="divider">
+
+<div class="sec"><i class="ti ti-palette" aria-hidden="true"></i> Consistência visual — regras para os dois formatos</div>
+<div class="col-body" style="margin-bottom:10px">
+  <div class="row"><div class="row-label">1 fonte só</div><div class="row-val">Escolha uma fonte e use para sempre. Trocar de vídeo pra vídeo destrói a identidade.</div></div>
+  <div class="row"><div class="row-label">1 cor de destaque</div><div class="row-val">A cor que você usa para palavra ativa vira cor do canal. Escolha e não mude.</div></div>
+  <div class="row"><div class="row-label">Posição fixa</div><div class="row-val">Calibre uma vez, salve como preset no seu editor. Nunca reposicione manualmente.</div></div>
+  <div class="row"><div class="row-label">Contorno sempre</div><div class="row-val">Sem contorno, a legenda some em fundos claros. Mínimo 4px, idealmente 5–6px.</div></div>
+  <div class="row"><div class="row-label">Sem caixa de fundo</div><div class="row-val">Fundo semitransparente atrás do texto parece amador. Use só o contorno.</div></div>
+</div>
+
+<div class="note">Ferramentas que geram legenda automática com word-by-word: <strong>CapCut</strong> (gratuito, excelente), <strong>Clipe.fm</strong>, <strong>Submagic</strong>, <strong>Adobe Premiere</strong> (com plugin). No CapCut, o preset "word highlight" já faz tudo isso.</div>
+
+</div>

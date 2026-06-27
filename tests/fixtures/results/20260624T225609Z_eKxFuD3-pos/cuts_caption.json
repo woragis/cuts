@@ -1,0 +1,285 @@
+{
+  "shorts": [
+    {
+      "id": "caption-01",
+      "startSec": 136,
+      "endSec": 200,
+      "title": "Jogador de Barcelona com problema de dinheiro? Sem solução",
+      "reason": "Momento quotable e bem delimitado: o apresentador reage com ironia à justificativa de que Rafinha jogava mal na seleção por problemas financeiros, concluindo com o punchline 'ganha em euro'. Setup claro (por que cancelar Rafinha?) e payoff forte.",
+      "score": 0.82,
+      "source": "caption"
+    },
+    {
+      "id": "caption-02",
+      "startSec": 463,
+      "endSec": 534,
+      "title": "A vergonha de suplicar à Itália para extraditar Zambelli",
+      "reason": "Segmento completo com setup (a Itália, mesmo com justiça lenta, recusou extradição anterior por imparcialidade) e payoff emocional forte: 'tem que ficar de joelho pra justiça italiana e falar: eu juro que essa vez a gente fez certinho'. Pensamento político coeso e quotable.",
+      "score": 0.87,
+      "source": "caption"
+    },
+    {
+      "id": "caption-03",
+      "startSec": 624,
+      "endSec": 695,
+      "title": "Erika Hilton quer ir pro PT — é óbvio",
+      "reason": "Análise direta e opinativa sobre a briga pública de Erika Hilton com o PSOL, com tese clara ('ela quer ir pro PT'), contexto político (cláusula de barreira, sinalização para Lula) e reação ao vitimismo. Pensamento completo em menos de 75 segundos.",
+      "score": 0.83,
+      "source": "caption"
+    },
+    {
+      "id": "caption-04",
+      "startSec": 1117,
+      "endSec": 1131,
+      "title": "Por que o governo gasta tudo antes da eleição",
+      "reason": "Momento direto e quotável explicando a lógica política de gastar dinheiro público antes das eleições — setup claro, payoff irônico, linguagem acessível.",
+      "score": 0.82,
+      "source": "caption"
+    },
+    {
+      "id": "caption-05",
+      "startSec": 1776,
+      "endSec": 1800,
+      "title": "A vida adulta é feita de escolhas e renúncias",
+      "reason": "Reflexão filosófica concisa e quotável sobre responsabilidade pessoal, encerra um raciocínio completo sobre contratos, trabalho e vitimismo — ótimo gancho emocional.",
+      "score": 0.85,
+      "source": "caption"
+    },
+    {
+      "id": "caption-06",
+      "startSec": 915,
+      "endSec": 970,
+      "title": "Por que a esquerda patina no vitimismo",
+      "reason": "Crítica direta e provocativa ao PSOL e à cultura do vitimismo na esquerda, com exemplo concreto da Érika Hilton sobre 'privilégio cis e branco' — pensamento completo com setup e payoff.",
+      "score": 0.8,
+      "source": "caption"
+    },
+    {
+      "id": "caption-07",
+      "startSec": 1800,
+      "endSec": 1847,
+      "title": "Ninguém fica onde não quer — a lógica dos contratos e a lealdade",
+      "reason": "Momento quotável e completo: o apresentador questiona por que alguém reclama de um contrato que aceitou livremente, conclui com 'atacar quem te ofereceu uma mão é uma coisa muito brasileira'. Setup, desenvolvimento e payoff claros em ~47 segundos.",
+      "score": 0.88,
+      "source": "caption"
+    },
+    {
+      "id": "caption-08",
+      "startSec": 2013,
+      "endSec": 2123,
+      "title": "MEI com dois funcionários: a conta que não fecha",
+      "reason": "Argumento completo e didático: parte da proposta do governo de permitir dois funcionários ao MEI, faz a conta ao vivo (81k bruto ÷ 12 = 6.700/mês, menos salários e encargos = 2.500 restantes) e conclui com os dados do Sebrae sobre margem média de 5 mil reais. Conteúdo educativo, quotável e com começo-meio-fim.",
+      "score": 0.92,
+      "source": "caption"
+    },
+    {
+      "id": "caption-09",
+      "startSec": 2573,
+      "endSec": 2640,
+      "title": "'Os dois são iguais' — quando todo mundo chega à conclusão que a gente já tinha",
+      "reason": "Momento de reflexão pessoal sobre o crescimento do canal em 2016 e a tentação de se associar à direita por cálculo comercial. Introduz tema de independência editorial com contexto real e tom confessional — forte potencial de engajamento e identificação.",
+      "score": 0.82,
+      "source": "caption"
+    },
+    {
+      "id": "caption-10",
+      "startSec": 2795,
+      "endSec": 2970,
+      "title": "Falar o que é certo independente das consequências — a filosofia do criador",
+      "reason": "Momento altamente quotável onde o apresentador declara sua filosofia editorial: falar sempre o que acha certo sem calcular popularidade, usando a metáfora do Robert De Bruce e William Wallace para ilustrar a paz interior de agir com integridade. Arco completo com setup, desenvolvimento e payoff.",
+      "score": 0.92,
+      "source": "caption"
+    },
+    {
+      "id": "caption-11",
+      "startSec": 3000,
+      "endSec": 3083,
+      "title": "'Lula e Bolsonaro são iguais' — a vitória moral de 2021",
+      "reason": "Clipe curto e incisivo sobre como o canal defendeu em 2021 que Lula e Bolsonaro eram iguais, pagaram um preço por isso, e hoje veem outros chegando à mesma conclusão. Pensamento completo com tensão e resolução, muito quotável.",
+      "score": 0.88,
+      "source": "caption"
+    },
+    {
+      "id": "caption-12",
+      "startSec": 3323,
+      "endSec": 3442,
+      "title": "Carlos Bolsonaro anuncia candidatura com frases que contradizem a família",
+      "reason": "Segmento cômico e crítico onde o apresentador reage ao vídeo de Carlos Bolsonaro listando causas nobres (STF acima de tudo, dependência do governo) e ironiza que o próprio Bolsonaro contradiz cada uma dessas frases. Bom ritmo, ironia afiada, pensamento completo.",
+      "score": 0.85,
+      "source": "caption"
+    },
+    {
+      "id": "caption-13",
+      "startSec": 3600,
+      "endSec": 3670,
+      "title": "Carlos Bolsonaro vira candidato do PSDB?",
+      "reason": "Momento humorístico e quotável: apresentador reage ao vídeo de Carlos Bolsonaro candidato ao governo de SC, comentando que ele 'virou um cara do PSDB' pela estética do vídeo, seguido de leitura dos comentários mais curtidos. Setup claro + payoff cômico com opinião afiada.",
+      "score": 0.82,
+      "source": "caption"
+    },
+    {
+      "id": "caption-14",
+      "startSec": 3839,
+      "endSec": 3910,
+      "title": "Banco Digimais se passava pelo Detran — e o apresentador compara ao Edir Macedo",
+      "reason": "Pensamento completo e quotável: apresentador conclui análise do caso Digimais com a frase-punchline 'o diabo olha pro Edir Macedo e pensa, meu Deus', conectando golpes financeiros a charlatanismo religioso. Raciocínio com setup, desenvolvimento e piada memorável.",
+      "score": 0.85,
+      "source": "caption"
+    },
+    {
+      "id": "caption-15",
+      "startSec": 4370,
+      "endSec": 4440,
+      "title": "Nego Di falsificou Pix de 1 milhão para as vítimas das enchentes",
+      "reason": "Momento de alta indignação com fato concreto e impactante: apresentador reage à revelação de que Nego Di divulgou comprovante falso de doação de R$1 milhão às vítimas do RS, chamando isso de 'estopim'. Clipe com contexto, reação genuína e encerramento narrativo.",
+      "score": 0.88,
+      "source": "caption"
+    },
+    {
+      "id": "caption-16",
+      "startSec": 4697,
+      "endSec": 4800,
+      "title": "Outdoor de R$2.500 é 'abuso de poder econômico'?",
+      "reason": "Momento quotable e bem delimitado: o host desmonta ao vivo a acusação de 'abuso de poder econômico' contra Renan Santos por outdoors, pesquisa o preço em tempo real e demonstra o absurdo da crítica com humor e lógica clara.",
+      "score": 0.88,
+      "source": "caption"
+    },
+    {
+      "id": "caption-17",
+      "startSec": 5157,
+      "endSec": 5245,
+      "title": "Nando Moura x MBL: o que é realmente o processo?",
+      "reason": "Explicação direta e completa de por que o processo contra Nando Moura existe — monetizar vídeos chamando o MBL de nazistas — com analogia pessoal à Penélope que torna o raciocínio acessível e quotável.",
+      "score": 0.91,
+      "source": "caption"
+    },
+    {
+      "id": "caption-18",
+      "startSec": 5245,
+      "endSec": 5310,
+      "title": "Se vai dar opinião forte, assuma a ignorância primeiro",
+      "reason": "Reflexão completa e autocrítica sobre responsabilidade comunicativa: o host compara a situação da Penélope com ele próprio falando de futebol, entregando uma máxima clara e quotável sobre opinar sem conhecimento.",
+      "score": 0.85,
+      "source": "caption"
+    },
+    {
+      "id": "caption-19",
+      "startSec": 5400,
+      "endSec": 5445,
+      "title": "Fazenda de Militância no Tocantins",
+      "reason": "Bit humorístico completo sobre como o MBL 'cria' militantes: da fazenda no Tocantins às cápsulas do Dragon Ball, referência ao clipe do Pink Floyd e reação cômica dos outros apresentadores. Setup e payoff claros.",
+      "score": 0.88,
+      "source": "caption"
+    },
+    {
+      "id": "caption-20",
+      "startSec": 5559,
+      "endSec": 5632,
+      "title": "MBL Recrutando Adolescentes no Roblox e Fortnite",
+      "reason": "Penélope expõe teoria sobre recrutamento político via games, com reações cômicas dos colegas, culminando na piada do pai vendo a cobrança de R$2500 no cartão. Momento quotable com setup e punchline completos.",
+      "score": 0.85,
+      "source": "caption"
+    },
+    {
+      "id": "caption-21",
+      "startSec": 5596,
+      "endSec": 5660,
+      "title": "Seita, Adolescentes e o Caso Bizoto",
+      "reason": "Penélope descreve a lógica de 'seita' usada para recrutar jovens, compara Bolsonaro e Lula como tática e menciona o caso Bizoto com vídeo racista, gerando debate acalorado e negação ao vivo pelos outros hosts.",
+      "score": 0.8,
+      "source": "caption"
+    },
+    {
+      "id": "caption-22",
+      "startSec": 6339,
+      "endSec": 6372,
+      "title": "'Apertar o Botão e Ficar Quieta' — Resposta Direta ao Comentário Machista",
+      "reason": "Momento de alta energia e quotável: a apresentadora lê um comentário ofensivo ao vivo, responde banindo o usuário imediatamente e defende seu papel com indignação genuína. Setup + payoff completo em ~33 segundos, com pico emocional claro.",
+      "score": 0.88,
+      "source": "caption"
+    },
+    {
+      "id": "caption-23",
+      "startSec": 6323,
+      "endSec": 6372,
+      "title": "De Apolítico a Eleitor: Superchats Revelam Impacto Real da Live",
+      "reason": "Sequência que começa com superchat emocionante de espectador que não votava há 16 anos e convenceu família bolsonarista, seguido imediatamente pelo contraste com comentário machista e ban ao vivo. Arco narrativo completo com emoção positiva e negativa em ~49 segundos.",
+      "score": 0.85,
+      "source": "caption"
+    },
+    {
+      "id": "caption-24",
+      "startSec": 6496,
+      "endSec": 6550,
+      "title": "Recusando Desafio de Briga e Encerramento da Live",
+      "reason": "Bloco final coeso: recusa clara e fundamentada a desafio de confronto físico lançado por canal opositor, seguida do encerramento oficial da live com call-to-action. Posicionamento de princípio que funciona como declaração de valores + fechamento natural do episódio.",
+      "score": 0.78,
+      "source": "caption"
+    }
+  ],
+  "longCuts": [
+    {
+      "id": "caption-long-01",
+      "startSec": 286,
+      "endSec": 600,
+      "title": "Zambelli, a Itália e o STF: o circo da extradição explicado",
+      "reason": "Arco temático completo: notícia do Gilmar Mendes enviando garantias à Itália → explicação dos dois casos de condenação → contexto sobre o sistema judiciário italiano → crítica à falta de imparcialidade do STF reconhecida pela própria Itália → conclusão envergonhada sobre ter de suplicar por extradição. Tópico político bem desenvolvido, com setup, desenvolvimento e payoff dentro da janela.",
+      "score": 0.88,
+      "source": "caption"
+    },
+    {
+      "id": "caption-long-02",
+      "startSec": 1139,
+      "endSec": 1800,
+      "title": "MEI, contratos e mentalidade brasileira: por que ninguém quer ser responsável",
+      "reason": "Arco temático completo: começa com a pauta-bomba do MEI (teto de faturamento), explica o impacto fiscal, passa pela anedota do Roberto Barros vs Edu Falaschi, conecta com UFC/Vanderlei Silva e conclui com reflexão sobre mentalidade de vitimismo em contratos de trabalho no Brasil — todo o arco cabe neste segmento com começo, meio e fim.",
+      "score": 0.87,
+      "source": "caption"
+    },
+    {
+      "id": "caption-long-03",
+      "startSec": 2013,
+      "endSec": 2409,
+      "title": "MEI, empresário malvadão e o escândalo Jax Wagner: o Brasil que não para de se contradizer",
+      "reason": "Arco temático coeso que começa com a análise econômica do MEI (conta ao vivo, dados do Sebrae), transita para a narrativa de que empresário pequeno é satanizado injustamente, e desemboca no caso Jax Wagner / Banco Master como exemplo de como a política brasileira opera com contradições similares. Os temas se conectam pela crítica à cultura brasileira de culpabilização seletiva. Encerra com o comentário sobre rejeição de Lula e Bolsonaro nas pesquisas — conclusão redonda.",
+      "score": 0.8,
+      "source": "caption"
+    },
+    {
+      "id": "caption-long-04",
+      "startSec": 2698,
+      "endSec": 3083,
+      "title": "Da crítica ao Marco Feliciano à filosofia de falar sempre o que é certo — e a vitória moral de 2021",
+      "reason": "Arco temático completo que começa com a anedota sobre Marco Feliciano e Gregório Duvivier, evolui para a decisão pessoal de nunca ceder à popularidade, usa a metáfora histórica da independência escocesa para ilustrar integridade, e termina com a validação dessa postura através da posição 'Lula = Bolsonaro' de 2021. Narrativa coesa, reflexiva e com payoff claro dentro da janela.",
+      "score": 0.89,
+      "source": "caption"
+    },
+    {
+      "id": "caption-long-05",
+      "startSec": 4231,
+      "endSec": 4475,
+      "title": "O caso Nego Di: rifas ilegais, lavagem de dinheiro e 14 anos de condenação",
+      "reason": "Arco temático completo sobre a condenação do influenciador Nego Di: apresentador lê a reportagem, explica os crimes (rifas ilegais, lavagem, documento falso), contextualiza o histórico criminal, discute se ele será preso e consulta a equipe sobre direito penal. Início, desenvolvimento e conclusão bem definidos dentro da janela.",
+      "score": 0.87,
+      "source": "caption"
+    },
+    {
+      "id": "caption-long-06",
+      "startSec": 4800,
+      "endSec": 5400,
+      "title": "Penélope critica o Renan e o MBL — e o host desmonta cada argumento ao vivo",
+      "reason": "Arco temático completo contido neste segmento: o host assiste e reage ponto a ponto ao vídeo da Penélope, refutando 'virgindade política', 'abuso de poder econômico', regulação de redes e o processo do Nando Moura, culminando numa crítica direta à postura da jornalista. Setup, desenvolvimento e payoff inteiramente dentro da janela.",
+      "score": 0.9,
+      "source": "caption"
+    },
+    {
+      "id": "caption-long-07",
+      "startSec": 5400,
+      "endSec": 5791,
+      "title": "Polêmica Completa: MBL, Recrutamento de Jovens e a Teoria do Roblox",
+      "reason": "Arco temático completo que vai do humor inicial sobre 'fazenda de militância', passa pela discussão séria de Penélope sobre recrutamento via games, inclui a menção ao caso Bizoto, a negação do apresentador sobre o PSDB e encerra com o momento viral de 'Renan Santos 15 do PSDB'. Fluxo narrativo coeso com tensão, humor e debate político.",
+      "score": 0.87,
+      "source": "caption"
+    }
+  ]
+}

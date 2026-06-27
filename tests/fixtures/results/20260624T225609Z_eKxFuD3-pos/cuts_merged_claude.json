@@ -1,0 +1,460 @@
+{
+  "shorts": [
+    {
+      "id": "merged-short-01",
+      "startSec": 54,
+      "endSec": 200,
+      "title": "Jogador do Barcelona com problema de dinheiro? 'Ganha em Euro!'",
+      "reason": "Merge de video-01, caption-01 e video-02. Setup orgânico (por que cancelar Rafinha?) cresce diretamente até o punchline irônico sobre jogador do Barcelona com 'problema financeiro' ganhando em euro. Fluxo contínuo confirmado pelo transcript — começa na pergunta da Ana (54s) e termina no payoff cômico (~200s).",
+      "score": 0.91,
+      "source": "both",
+      "mergedFrom": [
+        "video-01",
+        "caption-01",
+        "video-02"
+      ],
+      "action": "merge"
+    },
+    {
+      "id": "merged-short-02",
+      "startSec": 463,
+      "endSec": 534,
+      "title": "A vergonha de suplicar à Itália para extraditar Zambelli",
+      "reason": "caption-02 mantido como short standalone. Segmento completo e auto-contido com setup (Itália recusou extradição anterior por falta de imparcialidade do STF) e payoff emocional forte ('ficar de joelho pra justiça italiana'). Não sobrepõe com caption-long-01 de forma que exija merge — funciona melhor como clip cirúrgico.",
+      "score": 0.87,
+      "source": "caption",
+      "mergedFrom": [
+        "caption-02"
+      ],
+      "action": "keep_separate"
+    },
+    {
+      "id": "merged-short-03",
+      "startSec": 624,
+      "endSec": 695,
+      "title": "Erika Hilton quer ir pro PT — é óbvio",
+      "reason": "caption-03 mantido standalone. Análise opinativa completa em <75s com tese, contexto (cláusula de barreira, sinalização a Lula) e conclusão. Não há candidato adjacente para merge produtivo.",
+      "score": 0.83,
+      "source": "caption",
+      "mergedFrom": [
+        "caption-03"
+      ],
+      "action": "keep_separate"
+    },
+    {
+      "id": "merged-short-04",
+      "startSec": 900,
+      "endSec": 970,
+      "title": "O PSOL e a competição idiota de vitimismo",
+      "reason": "Merge de video-03 e caption-06. video-03 tem setup (metáfora do grupo/ilha com reclamões) e caption-06 adiciona o exemplo concreto da Érika Hilton sobre 'privilégio cis e branco'. Transcript confirma continuidade entre 900–970s. Janela de 70s bem aproveitada.",
+      "score": 0.85,
+      "source": "both",
+      "mergedFrom": [
+        "video-03",
+        "caption-06"
+      ],
+      "action": "merge"
+    },
+    {
+      "id": "merged-short-05",
+      "startSec": 944,
+      "endSec": 999,
+      "title": "Arthur reage à Erika Hilton e ao Fundo Social de 2026 esgotado",
+      "reason": "Merge de video-04 e video-05. Reação sarcástica à fala de Erika (944s) seguida imediatamente da indignação sobre o governo comprometer 95% do Fundo Social de 2026 (979s). Dois momentos de alta energia do mesmo bloco político, total ~55s.",
+      "score": 0.86,
+      "source": "video",
+      "mergedFrom": [
+        "video-04",
+        "video-05"
+      ],
+      "action": "merge"
+    },
+    {
+      "id": "merged-short-06",
+      "startSec": 1117,
+      "endSec": 1138,
+      "title": "Por que o governo gasta tudo antes da eleição",
+      "reason": "caption-04 standalone. Momento direto e quotável (21s) com payoff irônico claro. Muito curto isolado — estender até ~1160s captura o início da transição para o tema do MEI, dando contexto de 'e daí vem o próximo problema fiscal'. Extensão suave.",
+      "score": 0.82,
+      "source": "caption",
+      "mergedFrom": [
+        "caption-04"
+      ],
+      "action": "extend"
+    },
+    {
+      "id": "merged-short-07",
+      "startSec": 1776,
+      "endSec": 1847,
+      "title": "Atacar quem te ofereceu uma mão é uma coisa muito brasileira",
+      "reason": "Merge de caption-05 e caption-07. caption-05 (reflexão sobre escolhas e renúncias) encerra o raciocínio que caption-07 prolonga com o punchline sobre contratos e lealdade. Sequência contínua confirmada pelos timestamps adjacentes. Total ~71s com começo filosófico e payoff cultural forte.",
+      "score": 0.88,
+      "source": "caption",
+      "mergedFrom": [
+        "caption-05",
+        "caption-07"
+      ],
+      "action": "merge"
+    },
+    {
+      "id": "merged-short-08",
+      "startSec": 2013,
+      "endSec": 2110,
+      "title": "A conta impossível do MEI com dois funcionários",
+      "reason": "Merge de caption-08 e video-06. Ambos cobrem exatamente o mesmo momento (cálculo ao vivo 81k÷12=6.700, menos salários e encargos=2.500 restantes) com fontes complementares. video-06 capta a energia visual do cálculo; caption-08 confirma o arco completo até os dados do Sebrae. Transcript confirma o segmento 2013–2110s.",
+      "score": 0.92,
+      "source": "both",
+      "mergedFrom": [
+        "caption-08",
+        "video-06"
+      ],
+      "action": "merge"
+    },
+    {
+      "id": "merged-short-09",
+      "startSec": 2255,
+      "endSec": 2310,
+      "title": "A desculpa mais esfarrapada da política — apartamento pra filha do Jax Wagner",
+      "reason": "video-07 estendido de 2295 para 2310s para capturar a reação final dos outros apresentadores ('Para, vai, meu') e fechar o momento cômico. O transcript de 2258–2307s confirma o arco completo da justificativa absurda. Short standalone sem candidato para merge.",
+      "score": 0.85,
+      "source": "video",
+      "mergedFrom": [
+        "video-07"
+      ],
+      "action": "extend"
+    },
+    {
+      "id": "merged-short-10",
+      "startSec": 2573,
+      "endSec": 2643,
+      "title": "'Os dois são iguais' — quando o mundo chega onde a gente já estava",
+      "reason": "caption-09 standalone. Momento confessional sobre o crescimento do canal em 2016 e a tentação comercial de se associar à direita. Transcript confirma o arco completo até 2643s (conversa com Renan sobre IFL/Bolsonaro). Forte potencial de identificação e independência editorial.",
+      "score": 0.83,
+      "source": "caption",
+      "mergedFrom": [
+        "caption-09"
+      ],
+      "action": "keep_separate"
+    },
+    {
+      "id": "merged-short-11",
+      "startSec": 2795,
+      "endSec": 3018,
+      "title": "Falar o que é certo independente das consequências — Robert De Bruce e a paz interior",
+      "reason": "Merge de caption-10 e video-08. caption-10 cobre a declaração filosófica central (metáfora Robert De Bruce/William Wallace) e video-08 adiciona a metáfora visual do Titanic/iceberg como extensão do mesmo raciocínio sobre foresight político. Total ~223s — ligeiramente acima do ideal para short mas altamente quotável; cortar em 2870s para ~75s se necessário como short, ou usar como base do longCut.",
+      "score": 0.89,
+      "source": "both",
+      "mergedFrom": [
+        "caption-10",
+        "video-08"
+      ],
+      "action": "merge"
+    },
+    {
+      "id": "merged-short-12",
+      "startSec": 3000,
+      "endSec": 3083,
+      "title": "'Lula e Bolsonaro são iguais' — a vitória moral de 2021",
+      "reason": "caption-11 standalone. Clipe incisivo e completo: canal defendeu em 2021 que ambos eram iguais, pagou preço por isso, hoje outros chegam à mesma conclusão. Transcript confirma pico em 2577–2598s ('Agora virou! Agora, velho!'). Iniciar em 3000s captura o payoff sem o setup repetitivo.",
+      "score": 0.88,
+      "source": "caption",
+      "mergedFrom": [
+        "caption-11"
+      ],
+      "action": "keep_separate"
+    },
+    {
+      "id": "merged-short-13",
+      "startSec": 3323,
+      "endSec": 3442,
+      "title": "Carlos Bolsonaro concorda com tudo que contradiz a própria família",
+      "reason": "Merge de caption-12 e video-09. video-09 captura a alta energia e sarcasmo ('eu concordo com todas, meu'), caption-12 confirma o arco completo das contradições. Transcript confirma o ritmo perfeito de ironia acumulada de 3323–3442s.",
+      "score": 0.92,
+      "source": "both",
+      "mergedFrom": [
+        "caption-12",
+        "video-09"
+      ],
+      "action": "merge"
+    },
+    {
+      "id": "merged-short-14",
+      "startSec": 3600,
+      "endSec": 3670,
+      "title": "Carlos Bolsonaro virou PSDBista? A estética diz tudo",
+      "reason": "caption-13 standalone. Momento humorístico e auto-contido sobre a estética do vídeo de Carlos ('luz, barba, teleprompter, camisa branca — virou um cara do PSDB'). Transcript confirma payoff cômico aos 3609s. Separado do cluster 6 por ser um beat distinto após o vídeo terminar.",
+      "score": 0.82,
+      "source": "caption",
+      "mergedFrom": [
+        "caption-13"
+      ],
+      "action": "keep_separate"
+    },
+    {
+      "id": "merged-short-15",
+      "startSec": 3839,
+      "endSec": 3865,
+      "title": "'O diabo olha pro Edir Macedo e pensa: meu Deus' — Banco Digimais comparado",
+      "reason": "caption-14 standalone. Punchline memorável e cirúrgico comparando golpes financeiros do Digimais ao charlatanismo religioso. Transcript confirma setup (3839–3857s) e payoff ('o diabo olha pro Edir Macedo', 3858s). ~26s de pure gold — estender até 3866s para fechar a reação.",
+      "score": 0.85,
+      "source": "caption",
+      "mergedFrom": [
+        "caption-14"
+      ],
+      "action": "extend"
+    },
+    {
+      "id": "merged-short-16",
+      "startSec": 4231,
+      "endSec": 4440,
+      "title": "Nego Di falsificou Pix de R$1 milhão para vítimas das enchentes",
+      "reason": "Merge de caption-long-05 e caption-15. caption-15 é o momento de maior impacto (comprovante falso de doação às enchentes do RS) mas precisa do contexto de caption-long-05 (crimes, pena de 14 anos) para ter peso. Cortar de 4231s até 4440s captura o arco completo sem excesso. Transcript confirma o estopim aos 4382s.",
+      "score": 0.89,
+      "source": "caption",
+      "mergedFrom": [
+        "caption-long-05",
+        "caption-15"
+      ],
+      "action": "merge"
+    },
+    {
+      "id": "merged-short-17",
+      "startSec": 4697,
+      "endSec": 4800,
+      "title": "Outdoor de R$2.500 é 'abuso de poder econômico'? Jornalista não sabe o que está falando",
+      "reason": "caption-16 standalone. Momento didático e cômico em que o host desmonta ao vivo a acusação absurda, pesquisa o preço do outdoor em tempo real. Transcript confirma o arco completo 4697–4800s. Muito forte como short educativo com humor.",
+      "score": 0.88,
+      "source": "caption",
+      "mergedFrom": [
+        "caption-16"
+      ],
+      "action": "keep_separate"
+    },
+    {
+      "id": "merged-short-18",
+      "startSec": 5157,
+      "endSec": 5310,
+      "title": "Nando Moura x MBL e a lição sobre opinar sem conhecimento",
+      "reason": "Merge de caption-17 e caption-18. caption-17 explica o processo (monetizar chamando MBL de nazistas) e caption-18 entrega a reflexão sobre responsabilidade comunicativa com analogia pessoal. Fluxo narrativo contínuo e complementar. Total ~153s — cortar curto em 5245s se necessário, ou usar como segmento de 2,5 min.",
+      "score": 0.88,
+      "source": "caption",
+      "mergedFrom": [
+        "caption-17",
+        "caption-18"
+      ],
+      "action": "merge"
+    },
+    {
+      "id": "merged-short-19",
+      "startSec": 5400,
+      "endSec": 5445,
+      "title": "Fazenda de militância no Tocantins — como o MBL 'cria' jovens políticos",
+      "reason": "caption-19 standalone. Bit humorístico completo com referência ao Pink Floyd e Dragon Ball. Setup e payoff em ~45s. Separado do longCut para funcionar como clip de humor independente.",
+      "score": 0.88,
+      "source": "caption",
+      "mergedFrom": [
+        "caption-19"
+      ],
+      "action": "keep_separate"
+    },
+    {
+      "id": "merged-short-20",
+      "startSec": 5559,
+      "endSec": 5660,
+      "title": "MBL recrutando adolescentes no Roblox e Fortnite — e o pai vendo a cobrança no cartão",
+      "reason": "Merge de caption-20 e caption-21. caption-20 traz a teoria do Roblox/Fortnite com o punchline do pai vendo R$2.500 no cartão; caption-21 aprofunda com a lógica de 'seita' e o caso Bizoto. Ambos são parte do mesmo debate acalorado. Total ~101s — cortar em 5632s.",
+      "score": 0.84,
+      "source": "caption",
+      "mergedFrom": [
+        "caption-20",
+        "caption-21"
+      ],
+      "action": "merge"
+    },
+    {
+      "id": "merged-short-21",
+      "startSec": 6323,
+      "endSec": 6372,
+      "title": "'Seu trabalho é apertar o botão e ficar quieta' — ban ao vivo e resposta direta",
+      "reason": "Merge de caption-23 e caption-22. caption-23 fornece o contraste emocional (superchat positivo de ex-apolítico) que torna o comentário machista seguinte ainda mais impactante. caption-22 é o momento viral do ban. Arco narrativo completo em ~49s. Transcript confirma a sequência perfeita.",
+      "score": 0.89,
+      "source": "caption",
+      "mergedFrom": [
+        "caption-23",
+        "caption-22"
+      ],
+      "action": "merge"
+    },
+    {
+      "id": "merged-short-22",
+      "startSec": 6496,
+      "endSec": 6550,
+      "title": "Recusando briga com canal opositor — declaração de valores no encerramento",
+      "reason": "caption-24 standalone. Posicionamento de princípio como fechamento da live. Score relativamente mais baixo (0.78) mas válido como clip de encerramento com CTA. Manter para completude narrativa do episódio.",
+      "score": 0.78,
+      "source": "caption",
+      "mergedFrom": [
+        "caption-24"
+      ],
+      "action": "keep_separate"
+    }
+  ],
+  "longCuts": [
+    {
+      "id": "long-cut-01",
+      "startSec": 136,
+      "endSec": 600,
+      "title": "Rafinha, Zambelli e o STF: do futebol à extradição italiana em um bloco",
+      "reason": "Cluster 1 completo: começa com a discussão do Rafinha/seleção/euro (136–200s), avança para a explicação do caso Zambelli e o STF (286–600s). Dois temas que se conectam pela crítica à falta de credibilidade institucional brasileira — futebol como metáfora para a seleção de ruim, STF como corte que a própria Itália não confia. Arco temático coeso de ~7,7 min.",
+      "score": 0.86,
+      "source": "both",
+      "mergedFrom": [
+        "video-01",
+        "caption-01",
+        "video-02",
+        "caption-long-01",
+        "caption-02",
+        "caption-03"
+      ]
+    },
+    {
+      "id": "long-cut-02",
+      "startSec": 900,
+      "endSec": 1847,
+      "title": "Vitimismo, MEI e contratos: a mentalidade brasileira que trava o país",
+      "reason": "Clusters 2 completo: começa com a crítica ao vitimismo do PSOL/Erika Hilton (900s), passa pelo Fundo Social de 2026 esgotado (979s), avança para a lógica eleitoral de gastar antes das eleições (1117s), entra no arco do MEI/Roberto Barros/Edu Falaschi (1139s) e termina com a reflexão sobre contratos, responsabilidade e lealdade (1847s). Arco de ~15,7 min — pode ser cortado em 1400s para ~8 min focado no MEI/vitimismo.",
+      "score": 0.87,
+      "source": "both",
+      "mergedFrom": [
+        "video-03",
+        "caption-06",
+        "video-04",
+        "video-05",
+        "caption-04",
+        "caption-long-02",
+        "caption-05",
+        "caption-07"
+      ]
+    },
+    {
+      "id": "long-cut-03",
+      "startSec": 2013,
+      "endSec": 2409,
+      "title": "MEI, empresário malvadão e o escândalo Jax Wagner: o Brasil que não para de se contradizer",
+      "reason": "caption-long-03 como base, incorporando caption-08 e video-06. Começa com o cálculo ao vivo do MEI inviável (2013s), passa pela satanização injusta do pequeno empresário, desemboca no caso Jax Wagner/Banco Master e encerra com as rejeições gigantescas de Lula e Bolsonaro nas pesquisas. Arco de ~6,5 min com começo, meio e fim.",
+      "score": 0.87,
+      "source": "both",
+      "mergedFrom": [
+        "caption-long-03",
+        "caption-08",
+        "video-06"
+      ]
+    },
+    {
+      "id": "long-cut-04",
+      "startSec": 2573,
+      "endSec": 3083,
+      "title": "Da tentação comercial de 2016 à vitória moral de 2021: filosofia de um canal independente",
+      "reason": "Clusters 5 completo: começa com a reação ao Ciro Gomes ('os dois são iguais, agora virou!'), retrocede para a tentação de se associar à direita em 2016, evolui pela anedota do Marco Feliciano/Gregório Duvivier, declara a filosofia editorial (Robert De Bruce), usa a metáfora do Titanic e culmina na validação de 2021. Narrativa autobiográfica coesa de ~8,5 min.",
+      "score": 0.9,
+      "source": "both",
+      "mergedFrom": [
+        "caption-09",
+        "caption-long-04",
+        "caption-10",
+        "video-08",
+        "caption-11"
+      ]
+    },
+    {
+      "id": "long-cut-05",
+      "startSec": 3201,
+      "endSec": 3670,
+      "title": "Carlos Bolsonaro candidato: contradições, PSDB estético e comentários da internet",
+      "reason": "Clusters 6 e 7 unidos: começa com o caso Dark Horse/Vorcaro para contextualizar a perda de credibilidade dos Bolsonaros (3201s), entra no vídeo de Carlos Bolsonaro com reações sarcásticas às frases contraditórias (3323–3442s) e termina com a leitura dos comentários mais curtidos e a observação do 'virou PSDBista' (3600–3670s). Arco de ~7,8 min com ritmo de reação ao vivo.",
+      "score": 0.85,
+      "source": "both",
+      "mergedFrom": [
+        "caption-12",
+        "video-09",
+        "caption-13"
+      ]
+    },
+    {
+      "id": "long-cut-06",
+      "startSec": 4697,
+      "endSec": 5791,
+      "title": "Penélope vs. MBL: outdoor, Nando Moura, Roblox e a arte de opinar sem saber",
+      "reason": "Cluster 10 completo como longCut. Começa com a desconstrução do 'abuso de poder econômico' (4697s), passa pela refutação ponto a ponto do vídeo da Penélope (4800–5157s), explica o processo do Nando Moura (5157s), entrega a reflexão sobre responsabilidade comunicativa (5245s), termina com o humor da fazenda de militância e o recrutamento no Roblox (5400–5791s). Arco de ~18 min — recortar 4697–5400s para ~11 min mais focado se necessário.",
+      "score": 0.9,
+      "source": "both",
+      "mergedFrom": [
+        "caption-16",
+        "caption-long-06",
+        "caption-17",
+        "caption-18",
+        "caption-19",
+        "caption-long-07",
+        "caption-20",
+        "caption-21"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "clusterId": 1,
+      "action": "merge",
+      "notes": "video-01 + caption-01 + video-02 merged into merged-short-01 (54–200s). caption-02 kept separate (463–534s). caption-03 kept separate (624–695s). caption-long-01 absorbed into long-cut-01 alongside caption-02 for full political arc."
+    },
+    {
+      "clusterId": 2,
+      "action": "merge",
+      "notes": "video-03 + caption-06 merged into merged-short-04. video-04 + video-05 merged into merged-short-05. caption-04 extended into merged-short-06. caption-05 + caption-07 merged into merged-short-07. caption-long-02 serves as backbone for long-cut-02."
+    },
+    {
+      "clusterId": 3,
+      "action": "merge",
+      "notes": "caption-08 + video-06 merged into merged-short-08 (best short in cluster). caption-long-03 elevated to long-cut-03 covering full arc including Jax Wagner. No rejection."
+    },
+    {
+      "clusterId": 4,
+      "action": "extend",
+      "notes": "video-07 extended to 2310s to capture full reaction. Transcript confirms apartment scandal joke arc ends at 2295s with residual laughter until 2310s. Single candidate — no merge possible."
+    },
+    {
+      "clusterId": 5,
+      "action": "keep_separate",
+      "notes": "caption-09 kept as standalone short (confessional hook). caption-10 + video-08 merged into merged-short-11 (trimmed to 75s for short; full version feeds long-cut-04). caption-11 kept standalone. caption-long-04 serves as long-cut-04 backbone."
+    },
+    {
+      "clusterId": 6,
+      "action": "merge",
+      "notes": "caption-12 + video-09 merged into merged-short-13. High complementarity confirmed by transcript — video captures energy, caption confirms full ironic arc."
+    },
+    {
+      "clusterId": 7,
+      "action": "keep_separate",
+      "notes": "caption-13 kept standalone as merged-short-14. Single candidate, distinct beat from cluster 6. Feeds into long-cut-05 for extended context."
+    },
+    {
+      "clusterId": 8,
+      "action": "extend",
+      "notes": "caption-14 extended to 3866s to capture final reaction beat. Punchline at 3858s confirmed by transcript. Single candidate — no merge possible."
+    },
+    {
+      "clusterId": 9,
+      "action": "merge",
+      "notes": "caption-long-05 + caption-15 merged into merged-short-16. caption-15 is the emotional peak (fake Pix) that needs caption-long-05's context (14-year sentence, crime list) to land properly. Trimmed to 4231–4440s."
+    },
+    {
+      "clusterId": 10,
+      "action": "merge",
+      "notes": "caption-16 kept as standalone short (strong self-contained moment). caption-17 + caption-18 merged into merged-short-18. caption-19 kept standalone. caption-20 + caption-21 merged into merged-short-20. caption-long-06 + caption-long-07 serve as long-cut-06 backbone."
+    },
+    {
+      "clusterId": 11,
+      "action": "merge",
+      "notes": "caption-23 + caption-22 merged into merged-short-21 for maximum emotional contrast. caption-24 kept standalone as closing short with lower score. No rejections."
+    }
+  ]
+}

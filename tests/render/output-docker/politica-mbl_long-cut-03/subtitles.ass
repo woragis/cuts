@@ -1,0 +1,243 @@
+[Script Info]
+Title: politica-mbl-long
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Karaoke,Nunito ExtraBold,58,&H0000D7FF&,&H00FFFFFF&,&H00000000&,&H64000000,0,0,0,0,100,100,0,0,1,5,0,2,40,40,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.26,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k26}sobrou {\k46}4 {\k90}629 {\k18}Quanto {\k18}que
+Dialogue: 0,0:00:02.26,0:00:02.95,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k8}é {\k12}o {\k18}salário {\k8}mínimo {\k5}Você
+Dialogue: 0,0:00:02.90,0:00:03.56,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k6}falou {\k60}menos
+Dialogue: 0,0:00:04.04,0:00:04.58,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k16}vou {\k5}falar {\k8}que {\k8}é {\k22}verdade
+Dialogue: 0,0:00:04.88,0:00:05.48,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k4}Como {\k14}é {\k5}que {\k22}você {\k20}contrata
+Dialogue: 0,0:00:05.48,0:00:07.34,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k28}dois {\k48}funcionários {\k58}se {\k20}o {\k32}faturamento
+Dialogue: 0,0:00:07.34,0:00:08.38,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k30}bruto {\k32}é {\k24}81 {\k18}mil
+Dialogue: 0,0:00:09.36,0:00:10.78,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k52}Vamos {\k20}fazer {\k24}uma {\k14}conta {\k32}besta
+Dialogue: 0,0:00:10.78,0:00:12.07,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k64}aqui {\k5}Vamos {\k12}fazer {\k32}uma {\k5}conta
+Dialogue: 0,0:00:12.02,0:00:13.42,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k24}besta {\k24}aqui {\k8}É {\k34}81 {\k18}mil
+Dialogue: 0,0:00:13.52,0:00:14.04,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k2}né {\k8}Vamos {\k14}lá
+Dialogue: 0,0:00:14.52,0:00:15.60,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}81 {\k40}mil {\k28}Ô {\k36}caramba
+Dialogue: 0,0:00:16.04,0:00:18.80,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k36}81 {\k74}mil {\k84}dividido {\k24}por {\k58}12
+Dialogue: 0,0:00:18.80,0:00:21.52,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k46}dá {\k40}6 {\k52}700 {\k64}reais {\k52}por {\k18}mês
+Dialogue: 0,0:00:22.10,0:00:24.00,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}Se {\k34}você {\k50}pegar {\k66}o {\k28}salário
+Dialogue: 0,0:00:24.00,0:00:25.28,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k34}mínimo {\k42}hoje {\k4}que {\k14}é {\k20}quanto
+Dialogue: 0,0:00:25.28,0:00:25.60,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k26}que {\k6}é
+Dialogue: 0,0:00:26.16,0:00:28.56,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k22}1 {\k124}621 {\k5}Acho {\k72}que {\k10}não
+Dialogue: 0,0:00:28.70,0:00:29.14,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k2}acho {\k10}que {\k5}é {\k10}1 {\k22}800
+Dialogue: 0,0:00:29.14,0:00:30.06,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k16}e {\k18}pouco {\k6}não {\k8}tô {\k26}viajando
+Dialogue: 0,0:00:30.08,0:00:31.86,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k32}É {\k48}1 {\k62}680 {\k12}ou {\k24}1
+Dialogue: 0,0:00:31.86,0:00:33.06,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k60}860 {\k6}Vê {\k10}se {\k16}é {\k14}isso
+Dialogue: 0,0:00:35.78,0:00:36.66,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k44}1 {\k44}621
+Dialogue: 0,0:00:37.44,0:00:39.72,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k18}Sobrou {\k46}5 {\k94}129 {\k4}Se {\k38}você
+Dialogue: 0,0:00:39.72,0:00:41.00,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k6}tirar {\k34}os {\k38}encargos {\k8}eu {\k8}vou
+Dialogue: 0,0:00:41.00,0:00:43.06,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k60}ser {\k64}muito {\k40}bondoso {\k22}aqui {\k8}vou
+Dialogue: 0,0:00:43.06,0:00:44.45,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k22}colocar {\k46}500 {\k14}reais {\k52}de {\k5}encargos
+Dialogue: 0,0:00:44.48,0:00:45.78,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k24}que {\k22}duvido {\k20}que {\k18}é {\k20}menos
+Dialogue: 0,0:00:45.78,0:00:47.08,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k32}500 {\k24}reais {\k8}Você {\k10}tá {\k22}falando
+Dialogue: 0,0:00:47.08,0:00:48.68,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k16}que {\k18}a {\k32}empresa {\k46}do {\k48}faturamento
+Dialogue: 0,0:00:48.68,0:00:51.60,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k90}bruto {\k68}do {\k52}limite {\k34}do {\k34}faturamento
+Dialogue: 0,0:00:51.60,0:00:52.70,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k38}bruto {\k72}MEI
+Dialogue: 0,0:00:53.29,0:00:55.12,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k23}você {\k28}tira {\k18}um {\k58}funcionário {\k46}um
+Dialogue: 0,0:00:55.12,0:00:57.60,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k74}funcionário {\k12}sobrou {\k48}4 {\k86}629
+Dialogue: 0,0:00:57.98,0:00:58.66,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k10}Quanto {\k18}que {\k6}é {\k12}o {\k22}salário
+Dialogue: 0,0:00:58.66,0:00:59.50,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k8}mínimo {\k5}Você {\k14}falou {\k54}menos
+Dialogue: 0,0:01:00.76,0:01:02.64,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k46}1 {\k46}621 {\k30}Você {\k8}tira {\k26}mais
+Dialogue: 0,0:01:02.64,0:01:04.68,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k46}um {\k12}tira {\k28}mais {\k50}500 {\k30}que
+Dialogue: 0,0:01:04.68,0:01:05.88,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k10}é {\k14}do {\k22}segundo {\k38}encargo {\k2}Sobrou
+Dialogue: 0,0:01:05.88,0:01:07.04,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k46}2 {\k42}500 {\k28}reais
+Dialogue: 0,0:01:07.44,0:01:07.49,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}mano
+Dialogue: 0,0:01:08.04,0:01:10.18,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k34}Sobrou {\k44}2 {\k36}500 {\k50}reais {\k16}Você
+Dialogue: 0,0:01:10.18,0:01:11.28,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k14}acha {\k20}que {\k36}esse {\k16}cara {\k24}tá
+Dialogue: 0,0:01:11.28,0:01:12.04,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k16}bem {\k18}Você {\k5}acha {\k4}que {\k26}esse
+Dialogue: 0,0:01:12.04,0:01:13.00,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k10}cara {\k12}não {\k24}não {\k18}Acho {\k8}que
+Dialogue: 0,0:01:13.00,0:01:13.84,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}ele {\k12}tem {\k24}que {\k5}pagar {\k36}imposto
+Dialogue: 0,0:01:14.06,0:01:14.76,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k8}sim {\k4}Se {\k14}ele {\k20}faturasse {\k24}lá
+Dialogue: 0,0:01:14.80,0:01:16.36,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k60}85 {\k26}mil {\k16}Ele {\k6}é {\k28}um
+Dialogue: 0,0:01:16.36,0:01:17.36,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k14}empresário {\k36}malvadão {\k12}Ele {\k4}é {\k30}um
+Dialogue: 0,0:01:17.36,0:01:19.82,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}empresário {\k36}malvadão {\k22}Cara {\k28}assim {\k84}é {\k62}insano
+Dialogue: 0,0:01:20.42,0:01:22.16,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k46}Eu {\k26}sempre {\k24}falo {\k18}isso {\k60}Dados
+Dialogue: 0,0:01:22.16,0:01:23.24,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k30}do {\k36}Sebrae {\k12}isso {\k10}não {\k16}é
+Dialogue: 0,0:01:23.24,0:01:24.98,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k32}minha {\k40}cabeça {\k6}Dados {\k24}do {\k42}Sebrae
+Dialogue: 0,0:01:25.44,0:01:26.66,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}A {\k32}margem {\k62}de {\k5}lucro {\k28}média
+Dialogue: 0,0:01:26.66,0:01:28.26,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k24}das {\k22}empresas {\k58}brasileiras {\k26}é {\k30}de
+Dialogue: 0,0:01:28.26,0:01:29.58,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k24}5 {\k18}mil {\k38}reais {\k2}Você {\k16}abre
+Dialogue: 0,0:01:29.58,0:01:30.66,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k34}uma {\k5}empresa {\k38}no {\k5}Brasil {\k18}pra {\k18}ganhar
+Dialogue: 0,0:01:31.40,0:01:32.36,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}em {\k5}média {\k30}5 {\k12}mil {\k20}reais
+Dialogue: 0,0:01:32.54,0:01:33.48,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k24}E {\k16}mais {\k22}de {\k32}90
+Dialogue: 0,0:01:33.86,0:01:35.36,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k72}das {\k5}empresas {\k32}quebram {\k20}nos {\k26}primeiros
+Dialogue: 0,0:01:35.36,0:01:36.00,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k36}5 {\k28}anos
+Dialogue: 0,0:01:37.10,0:01:38.58,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k48}Tá {\k48}Então {\k12}põe {\k24}isso {\k12}na
+Dialogue: 0,0:01:38.58,0:01:39.13,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k50}tua {\k5}cabeça
+Dialogue: 0,0:01:39.98,0:01:41.02,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k14}Puta {\k22}que {\k38}pariu {\k22}velho
+Dialogue: 0,0:01:41.48,0:01:42.86,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k10}O {\k6}cara {\k40}o {\k28}Diego {\k40}Augustinho
+Dialogue: 0,0:01:42.86,0:01:44.22,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k14}manda {\k18}assim {\k22}processo {\k36}mesmo {\k22}empresa
+Dialogue: 0,0:01:44.22,0:01:45.64,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k32}nenhuma {\k18}liga {\k18}pra {\k42}funcionário {\k18}Não
+Dialogue: 0,0:01:45.86,0:01:47.20,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k22}nenhuma {\k24}empresa {\k14}liga {\k20}pra {\k26}funcionário {\k12}cara
+Dialogue: 0,0:01:47.62,0:01:49.06,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k48}A {\k18}empresa {\k24}liga {\k20}para {\k34}o
+Dialogue: 0,0:01:49.06,0:01:49.84,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}lucro {\k16}E {\k34}você {\k28}também
+Dialogue: 0,0:01:50.28,0:01:50.88,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k6}Essa {\k8}é {\k4}a {\k14}novidade {\k12}Você
+Dialogue: 0,0:01:50.88,0:01:52.00,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k22}também {\k18}não {\k16}liga {\k14}pra {\k40}tua {\k2}empresa
+Dialogue: 0,0:01:52.44,0:01:53.26,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k18}Você {\k12}liga {\k18}para {\k32}o {\k2}lucro
+Dialogue: 0,0:01:53.26,0:01:54.01,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}que {\k10}ela {\k16}está {\k32}te {\k5}dando
+Dialogue: 0,0:01:54.08,0:01:55.08,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}tá {\k14}bom {\k22}Vamos {\k22}lá
+Dialogue: 0,0:01:56.02,0:01:56.42,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k40}Próximo
+Dialogue: 0,0:01:58.00,0:01:59.20,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k20}Como {\k30}estabeleceu {\k28}audiência {\k42}like
+Dialogue: 0,0:02:00.44,0:02:01.82,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k40}4 {\k40}397 {\k30}pessoas {\k18}ao {\k10}vivo
+Dialogue: 0,0:02:01.82,0:02:03.00,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k26}em {\k60}1982 {\k12}O {\k5}que {\k18}você
+Dialogue: 0,0:02:03.00,0:02:03.62,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k18}colocou {\k24}na {\k20}capa
+Dialogue: 0,0:02:04.78,0:02:06.36,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k40}Que {\k40}o {\k26}assessor {\k28}do {\k24}Jax
+Dialogue: 0,0:02:06.36,0:02:08.14,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k34}Wagner {\k38}ligou {\k26}para {\k38}o {\k42}Forcaro
+Dialogue: 0,0:02:08.22,0:02:09.68,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k26}Isso {\k22}não {\k24}dá {\k36}sucesso {\k34}Meu
+Dialogue: 0,0:02:09.68,0:02:10.70,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}filho {\k12}não {\k32}tem {\k24}pauta {\k26}hoje
+Dialogue: 0,0:02:10.70,0:02:11.72,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}tá {\k18}Eu {\k20}sei {\k54}mas {\k2}ó
+Dialogue: 0,0:02:11.74,0:02:12.86,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k4}posso {\k18}falar {\k40}Eu {\k10}sei {\k26}que
+Dialogue: 0,0:02:12.86,0:02:13.97,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k2}não {\k36}Forcaro {\k24}Banco {\k28}Master {\k5}Eu
+Dialogue: 0,0:02:13.92,0:02:15.04,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k10}sei {\k26}que {\k10}não {\k16}mas {\k40}não
+Dialogue: 0,0:02:15.04,0:02:15.36,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}tinha {\k20}outra {\k12}coisa
+Dialogue: 0,0:02:16.52,0:02:17.62,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k40}Renan {\k10}vai {\k24}voltar {\k28}hoje {\k8}para
+Dialogue: 0,0:02:17.62,0:02:18.40,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k18}a {\k4}live {\k6}Vai {\k34}bombar
+Dialogue: 0,0:02:19.18,0:02:20.28,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k6}Vamos {\k46}aproveitar {\k18}o {\k20}hype {\k20}do
+Dialogue: 0,0:02:20.28,0:02:21.50,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k28}nosso {\k36}Nanã {\k36}Santos {\k18}tá
+Dialogue: 0,0:02:22.22,0:02:23.40,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k38}Que {\k8}aliás {\k36}a {\k8}Copa {\k10}deu
+Dialogue: 0,0:02:23.40,0:02:24.92,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}uma {\k50}atrapalhada {\k34}hein {\k5}pessoal {\k14}A
+Dialogue: 0,0:02:24.92,0:02:25.80,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k4}Copa {\k4}deu {\k22}uma {\k44}atrapalhada {\k6}hein
+Dialogue: 0,0:02:26.14,0:02:27.56,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k20}Como {\k18}era {\k44}previsto {\k5}Então {\k20}ó
+Dialogue: 0,0:02:28.14,0:02:29.46,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k22}gás {\k5}hein {\k38}Não {\k32}adianta {\k24}pôr
+Dialogue: 0,0:02:29.46,0:02:30.80,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k30}um {\k24}negócio {\k50}na {\k20}live {\k10}que
+Dialogue: 0,0:02:30.80,0:02:31.40,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k22}a {\k5}gente {\k10}não {\k18}vai {\k10}falar
+Dialogue: 0,0:02:31.40,0:02:32.49,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k26}sobre {\k18}isso {\k40}As {\k5}pessoas {\k5}ficam
+Dialogue: 0,0:02:32.44,0:02:33.29,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k50}frustradas {\k2}É {\k5}mas {\k5}eu {\k5}falo
+Dialogue: 0,0:02:33.28,0:02:34.26,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k14}Só {\k18}me {\k18}afisa {\k30}antes {\k8}Dá
+Dialogue: 0,0:02:34.26,0:02:35.12,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k10}pra {\k12}falar {\k24}isso {\k12}Dá {\k12}E
+Dialogue: 0,0:02:35.12,0:02:35.77,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k8}aí {\k22}eu {\k5}falo {\k30}um {\k5}pouquinho
+Dialogue: 0,0:02:35.82,0:02:36.54,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}alguma {\k24}história {\k18}do {\k18}Renan
+Dialogue: 0,0:02:37.08,0:02:38.44,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k34}Que {\k14}o {\k10}Renan {\k14}está {\k28}passando {\k36}mal
+Dialogue: 0,0:02:39.82,0:02:41.32,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k16}Vamos {\k18}lá {\k22}Lula {\k24}é {\k38}rejeitado
+Dialogue: 0,0:02:41.32,0:02:42.28,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k22}por {\k74}47
+Dialogue: 0,0:02:42.64,0:02:45.42,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k30}dos {\k44}eleitores {\k6}diz {\k54}pesquisa {\k120}Oxi
+Dialogue: 0,0:02:46.08,0:02:47.67,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k56}Oxi {\k2}Desce {\k12}aí {\k58}um {\k5}pouquinho
+Dialogue: 0,0:02:48.80,0:02:50.02,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k36}Levantamento {\k50}da {\k36}GERP
+Dialogue: 0,0:02:50.72,0:02:52.26,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k2}Mostra {\k18}que {\k20}o {\k40}Lula {\k74}tem
+Dialogue: 0,0:02:52.26,0:02:55.22,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k34}um {\k5}índice {\k94}de {\k5}rejeição {\k30}de {\k138}47
+Dialogue: 0,0:02:57.24,0:02:58.50,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k62}Afirmando {\k14}que {\k12}não {\k22}votaria {\k16}no
+Dialogue: 0,0:02:58.50,0:02:59.76,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k40}Petista {\k28}de {\k20}jeito {\k20}nenhum {\k8}Eu
+Dialogue: 0,0:02:59.76,0:03:00.72,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k18}faço {\k26}parte {\k32}disso {\k18}tá
+Dialogue: 0,0:03:01.52,0:03:03.50,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k62}E {\k34}o {\k24}segundo {\k34}mais {\k44}rejeitado
+Dialogue: 0,0:03:03.50,0:03:06.22,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}é {\k32}o {\k8}Flávio {\k42}Bolsonaro {\k22}com {\k156}44
+Dialogue: 0,0:03:07.44,0:03:09.12,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k62}Rejeições {\k62}gigantescas {\k22}tá {\k12}amigo
+Dialogue: 0,0:03:10.18,0:03:12.16,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k62}Rejeições {\k62}gigantescas {\k20}Eu {\k4}vou {\k32}te
+Dialogue: 0,0:03:12.16,0:03:14.38,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}falar {\k22}é {\k36}muita {\k42}rejeição {\k110}Rejeição
+Dialogue: 0,0:03:14.38,0:03:16.36,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k58}importa {\k38}menos {\k20}do {\k18}que {\k64}apoio
+Dialogue: 0,0:03:16.70,0:03:17.36,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}Tanto {\k10}que {\k14}os {\k14}dois {\k28}mais
+Dialogue: 0,0:03:17.36,0:03:20.28,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k58}rejeitados {\k32}em {\k92}2018 {\k12}foram {\k46}para
+Dialogue: 0,0:03:20.28,0:03:22.20,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k54}o {\k5}segundo {\k32}turno {\k4}Em {\k52}2022 {\k36}também
+Dialogue: 0,0:03:22.56,0:03:23.83,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}E {\k16}em {\k48}2026 {\k46}os {\k5}caras
+Dialogue: 0,0:03:23.78,0:03:25.36,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k24}estão {\k30}liderando {\k50}pesquisa {\k10}O {\k18}lance
+Dialogue: 0,0:03:25.36,0:03:26.64,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k14}é {\k68}o {\k5}seguinte {\k16}O {\k18}lance
+Dialogue: 0,0:03:26.64,0:03:28.26,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k18}é {\k58}o {\k5}seguinte {\k16}Essas {\k36}rejeições
+Dialogue: 0,0:03:28.26,0:03:30.44,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k36}são {\k100}monstruosas {\k28}O {\k10}que {\k24}mostra
+Dialogue: 0,0:03:30.44,0:03:31.78,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k14}que {\k8}é {\k32}um {\k5}país {\k80}polarizado
+Dialogue: 0,0:03:32.20,0:03:33.38,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k28}Que {\k14}vota {\k28}muito {\k24}mais {\k24}no
+Dialogue: 0,0:03:33.38,0:03:35.46,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k36}ante {\k72}do {\k16}que {\k30}na {\k54}proposta
+Dialogue: 0,0:03:36.14,0:03:37.20,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k16}Por {\k12}isso {\k20}que {\k32}Nanã {\k26}Santos
+Dialogue: 0,0:03:37.20,0:03:39.38,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k14}é {\k24}uma {\k60}revolução {\k120}brasileira
+Dialogue: 0,0:03:39.84,0:03:40.90,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k28}Vamos {\k30}lá {\k5}Vamos {\k24}falar
+Dialogue: 0,0:03:41.42,0:03:42.16,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}Põe {\k40}na {\k22}tela
+Dialogue: 0,0:03:42.66,0:03:44.74,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k44}Jax {\k36}Wagner {\k62}perde {\k48}apoio {\k18}na
+Dialogue: 0,0:03:44.74,0:03:45.79,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k34}bancada {\k22}do {\k20}PT {\k24}em {\k5}meio
+Dialogue: 0,0:03:45.74,0:03:47.30,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k36}à {\k18}pressão {\k46}para {\k34}saída {\k22}da
+Dialogue: 0,0:03:47.30,0:03:48.94,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k24}liderança {\k58}do {\k5}governo {\k54}por {\k28}elo
+Dialogue: 0,0:03:48.94,0:03:49.54,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k20}com {\k40}master
+Dialogue: 0,0:03:49.96,0:03:51.82,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k44}Parlamentares {\k40}avaliam {\k14}que {\k50}explicações {\k38}representadas
+Dialogue: 0,0:03:51.82,0:03:54.00,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k16}pelo {\k28}senador {\k74}não {\k34}foram {\k66}suficientes
+Dialogue: 0,0:03:54.00,0:03:55.44,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k24}para {\k28}conter {\k56}desgaste {\k18}Mas {\k12}que
+Dialogue: 0,0:03:55.44,0:03:56.32,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k58}explicação {\k10}meu
+Dialogue: 0,0:03:57.16,0:03:58.16,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k40}Não {\k16}tem {\k44}explicação
+Dialogue: 0,0:03:58.54,0:03:59.52,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}Não {\k20}queira {\k26}comprar {\k38}um {\k2}apartamento
+Dialogue: 0,0:03:59.52,0:04:00.38,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k22}e {\k6}pedir {\k16}pro {\k14}cara {\k28}comprar
+Dialogue: 0,0:04:00.38,0:04:01.14,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k24}pra {\k6}mim {\k12}que {\k30}eu {\k4}já
+Dialogue: 0,0:04:01.14,0:04:02.36,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k14}já {\k18}ia {\k22}comprar {\k22}dele {\k18}de {\k28}volta
+Dialogue: 0,0:04:03.58,0:04:05.04,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k26}Mano {\k22}que {\k62}explicação {\k30}foi {\k6}essa
+Dialogue: 0,0:04:05.30,0:04:05.66,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}Vocês {\k14}viram {\k20}né
+Dialogue: 0,0:04:06.08,0:04:06.98,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k38}Um {\k5}apartamento {\k32}de {\k4}dois {\k16}pau
+Dialogue: 0,0:04:06.98,0:04:07.58,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}e {\k14}meio {\k10}O {\k5}que {\k16}foi
+Dialogue: 0,0:04:07.62,0:04:08.20,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k16}Não {\k12}não {\k6}é {\k8}que {\k16}eu
+Dialogue: 0,0:04:08.20,0:04:09.14,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}vi {\k12}pra {\k22}minha {\k16}filha {\k24}eu
+Dialogue: 0,0:04:09.14,0:04:11.12,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k26}gostei {\k12}Aí {\k104}eu {\k8}falei {\k48}pro
+Dialogue: 0,0:04:11.12,0:04:12.06,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k22}Ô {\k18}mano {\k10}você {\k12}tem {\k20}como
+Dialogue: 0,0:04:12.06,0:04:13.20,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k34}comprar {\k24}pra {\k10}mim {\k20}que {\k26}já
+Dialogue: 0,0:04:13.20,0:04:13.96,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}já {\k12}eu {\k40}te {\k12}pago
+Dialogue: 0,0:04:15.44,0:04:18.14,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k48}Para {\k26}vai {\k4}meu {\k40}Para {\k34}vai {\k42}meu
+Dialogue: 0,0:04:19.08,0:04:19.60,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}Para {\k28}com {\k24}isso
+Dialogue: 0,0:04:20.56,0:04:22.00,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k16}Parlamentares {\k24}avaliam {\k16}que {\k42}explicações {\k46}representadas
+Dialogue: 0,0:04:22.00,0:04:23.76,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k42}não {\k62}foram {\k32}suficientes {\k14}Desce {\k10}aí
+Dialogue: 0,0:04:23.76,0:04:24.14,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k14}um {\k24}pouquinho
+Dialogue: 0,0:04:24.86,0:04:26.54,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k4}O {\k78}apoio {\k14}à {\k28}presidência {\k44}de
+Dialogue: 0,0:04:26.54,0:04:29.38,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}Jax {\k22}Wagner {\k158}vem {\k56}perdendo {\k48}força
+Dialogue: 0,0:04:29.38,0:04:30.74,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k24}entre {\k54}integrantes {\k24}Ok
+Dialogue: 0,0:04:31.22,0:04:32.42,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k6}Uma {\k22}reunião {\k36}entre {\k14}chefes {\k42}executivos
+Dialogue: 0,0:04:32.42,0:04:33.92,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k56}parlamentares {\k34}para {\k18}essa {\k18}quarta {\k24}feira
+Dialogue: 0,0:04:33.92,0:04:35.24,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k44}pode {\k30}selar {\k20}o {\k14}destino {\k24}de
+Dialogue: 0,0:04:35.24,0:04:36.72,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k16}Wagner {\k66}Eles {\k22}falaram {\k24}que {\k20}as
+Dialogue: 0,0:04:36.72,0:04:38.96,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k60}explicações {\k40}do {\k28}aliado {\k38}histórico {\k58}do
+Dialogue: 0,0:04:38.96,0:04:40.48,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}presidente {\k26}não {\k30}foi {\k68}suficiente {\k28}né
+Dialogue: 0,0:04:41.74,0:04:41.96,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k4}Desce {\k18}aí
+Dialogue: 0,0:04:42.72,0:04:43.34,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k30}Desce {\k32}aí
+Dialogue: 0,0:04:44.18,0:04:45.20,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k20}Eles {\k22}já {\k24}defendem {\k22}uma {\k14}saída
+Dialogue: 0,0:04:45.20,0:04:46.48,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k30}de {\k18}Wagner {\k22}da {\k58}liderança
+Dialogue: 0,0:04:46.96,0:04:47.92,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k10}que {\k12}é {\k12}uma {\k18}coisa {\k44}óbvia
+Dialogue: 0,0:04:48.06,0:04:49.84,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k28}né {\k8}cara {\k22}Na {\k44}véspera {\k60}da
+Dialogue: 0,0:04:49.84,0:04:50.30,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}eleição {\k34}mano
+Dialogue: 0,0:04:50.68,0:04:51.27,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k10}O {\k12}maior {\k14}externo {\k18}em {\k5}torno
+Dialogue: 0,0:04:51.22,0:04:52.30,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k10}da {\k26}presidência {\k24}de {\k8}Wagner {\k40}começou
+Dialogue: 0,0:04:52.30,0:04:53.12,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k42}a {\k5}aparecer {\k20}ainda {\k12}no {\k8}dia
+Dialogue: 0,0:04:53.12,0:04:54.56,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k18}da {\k48}operação {\k26}Tá {\k4}desce {\k12}aí
+Dialogue: 0,0:04:54.56,0:04:55.62,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}um {\k20}pouquinho {\k2}Na {\k22}mesma {\k38}notificação
+Dialogue: 0,0:04:55.82,0:04:58.42,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k26}porém {\k24}o {\k18}parlamentar {\k96}procurou {\k70}desvincular
+Dialogue: 0,0:04:58.42,0:05:00.30,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k32}o {\k14}governo {\k66}do {\k12}escândalo {\k58}né
+Dialogue: 0,0:05:00.38,0:05:02.16,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k48}O {\k12}caso {\k18}teria {\k52}origem {\k48}em
+Dialogue: 0,0:05:02.16,0:05:03.85,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k32}relações {\k76}construídas {\k18}durante {\k38}o {\k5}governo
+Dialogue: 0,0:05:03.80,0:05:05.02,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k44}do {\k16}Jair {\k62}Bolsonaro
+Dialogue: 0,0:05:05.40,0:05:06.48,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k48}Tipo {\k14}não {\k6}pessoal
+Dialogue: 0,0:05:07.00,0:05:07.92,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}Isso {\k24}aqui {\k12}era {\k20}governo {\k24}do
+Dialogue: 0,0:05:07.92,0:05:08.96,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k28}Bolsonaro {\k24}ainda {\k5}E {\k24}daí {\k12}velho
+Dialogue: 0,0:05:09.06,0:05:09.96,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k24}Você {\k14}era {\k14}do {\k16}PT {\k22}da
+Dialogue: 0,0:05:09.96,0:05:11.06,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k30}Bahia {\k26}e {\k24}foi {\k12}lá {\k18}que
+Dialogue: 0,0:05:11.06,0:05:11.89,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k26}começou {\k52}o {\k5}problema
+Dialogue: 0,0:05:12.54,0:05:13.54,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}Nos {\k16}dias {\k26}seguintes {\k16}os {\k30}parlamentares
+Dialogue: 0,0:05:13.54,0:05:15.26,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k38}evitaram {\k30}defender {\k46}publicamente {\k50}a {\k8}Wagner
+Dialogue: 0,0:05:15.48,0:05:16.90,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}Segundo {\k6}o {\k38}parlamentar {\k16}resolvido {\k22}pelo {\k36}Globo
+Dialogue: 0,0:05:17.26,0:05:18.00,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}tá {\k4}Desce {\k8}aí {\k18}um {\k32}pouquinho
+Dialogue: 0,0:05:19.02,0:05:20.52,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k48}Também {\k28}causou {\k46}desconforto {\k14}entre {\k14}os
+Dialogue: 0,0:05:20.52,0:05:22.12,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k28}governistas {\k20}a {\k40}entrevista {\k44}concedida {\k28}por
+Dialogue: 0,0:05:22.12,0:05:23.20,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k22}Wagner {\k20}à {\k18}Band {\k24}News {\k24}após
+Dialogue: 0,0:05:23.20,0:05:24.52,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k14}a {\k40}operação {\k18}Que {\k8}foi {\k42}ridículo
+Dialogue: 0,0:05:24.52,0:05:25.06,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k32}aquilo {\k22}né
+Dialogue: 0,0:05:25.52,0:05:26.60,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k38}Integrantes {\k34}do {\k5}PT {\k24}avaliam {\k12}que
+Dialogue: 0,0:05:26.60,0:05:27.88,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k32}o {\k5}senador {\k32}acabou {\k38}expondo {\k26}o
+Dialogue: 0,0:05:27.88,0:05:30.42,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}Lula {\k124}desnecessariamente {\k34}ao {\k48}mencionar {\k48}conversas
+Dialogue: 0,0:05:30.42,0:05:31.80,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k18}com {\k44}o {\k5}presidente {\k42}e {\k34}ao
+Dialogue: 0,0:05:31.80,0:05:32.58,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k4}afirmar {\k12}que {\k22}o {\k16}pretista {\k24}já
+Dialogue: 0,0:05:32.58,0:05:34.00,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k22}enfrentou {\k28}situações {\k52}mais {\k10}graves {\k30}no
+Dialogue: 0,0:05:34.00,0:05:35.18,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k14}passado {\k58}Cara {\k2}quando {\k20}eu {\k4}vi
+Dialogue: 0,0:05:35.18,0:05:36.89,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k32}aquilo {\k8}eu {\k5}falei {\k4}nossa {\k50}senhora {\k5}né
+Dialogue: 0,0:05:37.98,0:05:38.48,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k4}Desce {\k8}aí {\k14}um {\k24}pouquinho
+Dialogue: 0,0:05:39.70,0:05:40.88,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k4}Vamos {\k38}lá {\k18}vamos {\k56}lá
+Dialogue: 0,0:05:42.34,0:05:43.60,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k10}O {\k30}pretista {\k48}dizem {\k6}que {\k32}não
+Dialogue: 0,0:05:43.60,0:05:44.66,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k26}virou {\k28}contradição {\k16}entre {\k34}a {\k2}defesa
+Dialogue: 0,0:05:44.66,0:05:46.68,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k70}feita {\k14}por {\k46}Edinho {\k44}e {\k28}a
+Dialogue: 0,0:05:46.68,0:05:47.56,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k5}pressão {\k22}pra {\k22}Wagner {\k22}sair {\k22}da
+Dialogue: 0,0:05:47.56,0:05:49.02,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k44}liderança {\k50}e {\k5}tal {\k18}Bom {\k8}não
+Dialogue: 0,0:05:49.02,0:05:50.27,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k8}tem {\k18}nenhuma {\k44}novidade {\k28}né {\k5}Desce
+Dialogue: 0,0:05:50.22,0:05:51.08,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k18}aí {\k12}um {\k16}pouquinho {\k14}desce {\k6}aí
+Dialogue: 0,0:05:51.16,0:05:51.92,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k14}E {\k8}aí {\k8}eles {\k14}ficam {\k32}se
+Dialogue: 0,0:05:51.92,0:05:52.78,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k12}apoiando {\k18}Não {\k5}o {\k18}Flávio {\k26}também
+Dialogue: 0,0:05:52.78,0:05:54.08,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k18}tem {\k46}revelações {\k20}com {\k10}o {\k36}Vorkar
+Dialogue: 0,0:05:54.44,0:05:55.54,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k40}Bom {\k16}é {\k28}isso
+Dialogue: 0,0:05:56.02,0:05:56.72,Karaoke,,0,0,0,,{\an2\pos(960,1010)\fad(120,0)\t(0,120,\pos(960,990))}{\k10}Vamos {\k14}lá {\k36}Próximo

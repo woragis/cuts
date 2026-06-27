@@ -1,0 +1,28 @@
+# Render de teste no mesmo ambiente do worker Railway (ffmpeg + fontconfig + Montserrat).
+#
+# Uso: ./run_docker_render.sh
+#      RENDER_MODE=subtitles ./run_docker_render.sh
+
+name: mdc-render-test
+
+services:
+  render:
+    build:
+      context: ../../backend/worker
+      dockerfile: Dockerfile
+    volumes:
+      - ../../:/repo
+    working_dir: /repo/backend/worker
+    environment:
+      PYTHONUNBUFFERED: "1"
+      FFMPEG_BIN: ffmpeg
+      OUTPUT_ROOT: /repo/tests/render/output-docker
+      CUTS_JSON: /repo/tests/fixtures/results/20260624T225609Z_eKxFuD3-pos/cuts_merged_claude.json
+      CHANNEL_SLUG: ${CHANNEL_SLUG:-politica-mbl}
+      CUT_ID: ${CUT_ID:-long-cut-03}
+      CUT_FORMAT: ${CUT_FORMAT:-long}
+      RENDER_MODE: ${RENDER_MODE:-subtitles}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      FORCE_WHISPER: ${FORCE_WHISPER:-0}
+      FORCE_BRIEF: ${FORCE_BRIEF:-0}
+    command: ["python", "/repo/tests/render/run_treatment_cut.py"]

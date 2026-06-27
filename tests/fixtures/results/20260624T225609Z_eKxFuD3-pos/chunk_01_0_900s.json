@@ -1,0 +1,33 @@
+{
+  "label": "chunk_01_0_900s",
+  "strategy": "file_first_MEDIA_RESOLUTION_LOW_fps=0.5",
+  "ok": true,
+  "mediaResolution": "MEDIA_RESOLUTION_LOW",
+  "fps": 0.5,
+  "httpStatus": 200,
+  "error": null,
+  "elapsedSec": 9.62,
+  "clipStartSec": 0.0,
+  "clipEndSec": 900.0,
+  "cuts": {
+    "shorts": [
+      {
+        "id": "short-01",
+        "startSec": 15,
+        "endSec": 65,
+        "title": "Por que o Rafinha está sendo cancelado?",
+        "reason": "Funny banter about being late because of cheese bread, transitioning into a sharp and humorous critique of the Brazilian national soccer team.",
+        "score": 0.85
+      },
+      {
+        "id": "short-02",
+        "startSec": 140,
+        "endSec": 190,
+        "title": "Jogador ganhando em Euro com problema financeiro?",
+        "reason": "The host reacts with disbelief to reports of a soccer player earning in Euros having financial problems, creating a highly engaging and funny moment.",
+        "score": 0.9
+      }
+    ],
+    "longCuts": []
+  }
+}

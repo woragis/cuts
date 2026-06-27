@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "cutId": "long-cut-03",
+  "channelSlug": "politica-mbl",
+  "format": "long",
+  "vodRef": {
+    "youtubeUrl": "https://www.youtube.com/watch?v=eKxFuD3-pos",
+    "startSec": 2013.0,
+    "endSec": 2409.0
+  },
+  "clip": {
+    "path": "clip_raw.mp4",
+    "durationSec": 353.166016,
+    "hookType": "rehook"
+  },
+  "hook": {
+    "type": "rehook",
+    "peakSec": 52.0,
+    "segments": [
+      {
+        "startSec": 52.0,
+        "endSec": 56.0,
+        "role": "peak_teaser"
+      },
+      {
+        "startSec": 0,
+        "endSec": 25,
+        "role": "context"
+      },
+      {
+        "startSec": 25,
+        "endSec": 52.0,
+        "role": "buildup"
+      },
+      {
+        "startSec": 52.0,
+        "endSec": null,
+        "role": "finale"
+      }
+    ]
+  },
+  "subtitles": {
+    "templatePath": "subtitles/templates/politica-mbl-long-inter.json",
+    "language": "pt",
+    "assPath": "subtitles.ass",
+    "wordsPath": "words.json",
+    "wordCount": 1063,
+    "outputPath": "clip_subtitled.mp4"
+  },
+  "silence": {
+    "engine": "ffmpeg_silencedetect",
+    "removals": [
+      {
+        "startSec": 2.336062,
+        "endSec": 3.024563,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 5.101521,
+        "endSec": 5.750417,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 11.348646,
+        "endSec": 11.856396,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 12.710521,
+        "endSec": 13.118604,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 13.118625,
+        "endSec": 13.898396,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 22.125,
+        "endSec": 22.576313,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 25.655333,
+        "endSec": 26.065896,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 33.030875,
+        "endSec": 34.715271,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 34.876771,
+        "endSec": 35.773042,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 35.935917,
+        "endSec": 36.728542,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 37.480187,
+        "endSec": 39.102458,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 42.156646,
+        "endSec": 42.567729,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 63.28675,
+        "endSec": 63.707625,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 77.579458,
+        "endSec": 78.336833,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 80.857833,
+        "endSec": 81.272188,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 96.414437,
+        "endSec": 97.104333,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 100.423458,
+        "endSec": 100.831,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 109.630354,
+        "endSec": 110.526354,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 110.538354,
+        "endSec": 110.971979,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 111.022458,
+        "endSec": 111.694354,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 117.802271,
+        "endSec": 118.470312,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 120.167354,
+        "endSec": 120.618396,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 121.578063,
+        "endSec": 122.084417,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 126.032271,
+        "endSec": 126.902979,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 127.28625,
+        "endSec": 128.286792,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 128.537042,
+        "endSec": 128.95925,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 131.982,
+        "endSec": 132.388187,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 142.89,
+        "endSec": 143.519333,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 169.450417,
+        "endSec": 170.15575,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 183.443875,
+        "endSec": 185.055896,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 209.245875,
+        "endSec": 210.243396,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 213.156604,
+        "endSec": 213.889375,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 224.206958,
+        "endSec": 224.799792,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 227.371917,
+        "endSec": 227.920083,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 238.843,
+        "endSec": 239.957667,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 243.970979,
+        "endSec": 244.658729,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 286.441896,
+        "endSec": 287.768062,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 294.441,
+        "endSec": 294.900708,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 299.561875,
+        "endSec": 300.837708,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 302.934792,
+        "endSec": 303.983563,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 321.377708,
+        "endSec": 321.992083,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 324.869021,
+        "endSec": 325.342146,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 345.6425,
+        "endSec": 348.230312,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 368.686125,
+        "endSec": 371.894021,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 372.807625,
+        "endSec": 373.396563,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 373.468229,
+        "endSec": 374.0195,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 375.457562,
+        "endSec": 376.799583,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 376.801917,
+        "endSec": 378.288396,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 387.146271,
+        "endSec": 387.612417,
+        "reason": "silencedetect"
+      },
+      {
+        "startSec": 388.574146,
+        "endSec": 389.720687,
+        "reason": "silencedetect"
+      }
+    ]
+  },
+  "watermark": {
+    "imagePath": "assets/politica-mbl/watermark.png",
+    "position": "bottom_right",
+    "marginPx": 24,
+    "opacity": 0.9
+  },
+  "audio": {
+    "backgroundMusicPath": "assets/politica-mbl/background-music.mp3",
+    "voiceTargetLufs": -16,
+    "musicDbDuringSpeech": -20
+  },
+  "outro": {
+    "imagePath": "assets/politica-mbl/outro.png",
+    "musicPath": "assets/politica-mbl/outro-trap.mp3",
+    "durationSec": 15,
+    "musicStartSec": 8,
+    "musicVolume": 0.28,
+    "voiceFadeSec": 1.2,
+    "videoCrossfadeSec": 1.0,
+    "musicFadeInSec": 1.0
+  },
+  "thumbnail": {
+    "patternPath": "assets/politica-mbl/thumbnail-pattern.png",
+    "characterPath": "assets/politica-mbl/character.png",
+    "titleHint": "MEI, empresário malvadão e o escândalo Jax Wagner: o Brasil que não para de se contradizer",
+    "badge": "MBL CORTES",
+    "topic": "ARTHUR DO VAL"
+  }
+}

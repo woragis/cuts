@@ -1,0 +1,33 @@
+{
+  "label": "chunk_03_1800_2700s",
+  "strategy": "file_first_MEDIA_RESOLUTION_LOW_fps=0.5",
+  "ok": true,
+  "mediaResolution": "MEDIA_RESOLUTION_LOW",
+  "fps": 0.5,
+  "httpStatus": 200,
+  "error": null,
+  "elapsedSec": 40.75,
+  "clipStartSec": 1800.0,
+  "clipEndSec": 2700.0,
+  "cuts": {
+    "shorts": [
+      {
+        "id": "short-01",
+        "startSec": 2014,
+        "endSec": 2095,
+        "title": "A dura realidade do MEI no Brasil",
+        "reason": "O palestrante faz contas ao vivo mostrando a inviabilidade de um MEI contratar funcionários com o teto atual, gerando forte identificação e revolta.",
+        "score": 0.9
+      },
+      {
+        "id": "short-02",
+        "startSec": 2255,
+        "endSec": 2295,
+        "title": "A desculpa mais esfarrapada da política",
+        "reason": "O apresentador cai na gargalhada ao expor uma justificativa política absurda sobre compra de imóvel, gerando um momento cômico e viral.",
+        "score": 0.85
+      }
+    ],
+    "longCuts": []
+  }
+}
