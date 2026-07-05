@@ -1,7 +1,7 @@
 # Plano: separação de serviços (workers, scheduler, bots)
 
 > **Branch:** `feat/worker-services-split`  
-> **Status:** planejamento — não migrar analyze dual / early-ingest até estabilizar em produção.  
+> **Status:** Fase 4 (scheduler Go) implementada — submodule `scheduler/` + docker-compose.  
 > **Decisão:** `worker-general` passa a **Go** (goroutines + I/O); IA permanece **Python**.
 
 ---
@@ -184,7 +184,7 @@ Evitar duplicar: preferir **módulo Go dentro do repo api** importado como `gith
 
 - [ ] Criar pastas vazias + README por serviço  
 - [ ] Extrair `contracts/`  
-- [ ] Mover `scheduler/` → top-level; Dockerfile Go stub  
+- [x] Mover `scheduler/` → top-level; Dockerfile Go stub  
 - [ ] CI: listar serviços afetados por path  
 
 ### Fase 2 — worker-general Go (piloto)
@@ -203,8 +203,8 @@ Evitar duplicar: preferir **módulo Go dentro do repo api** importado como `gith
 
 ### Fase 4 — scheduler Go
 
-- [ ] Port `recover_stale_jobs`, live_watch, publish_plans  
-- [ ] Desliga `python -m scheduler.main`  
+- [x] Port `recover_stale_jobs`, live_watch, publish_plans  
+- [x] Desliga `python -m scheduler.main` (docker-compose usa imagem Go; rollback: `SCHEDULER_RUNTIME=python` em dev)  
 
 ### Fase 5 — render / thumbnail / publish Go
 
