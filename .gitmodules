@@ -25,3 +25,6 @@
 [submodule "worker-notification"]
 	path = worker-notification
 	url = git@github.com:woragis/cuts-worker-notification.git
+[submodule "worker-thumbnail"]
+	path = worker-thumbnail
+	url = git@github.com:woragis/cuts-worker-thumbnail.git
