@@ -39,7 +39,7 @@ maquina-de-cortes/
 │
 ├── scheduler/                # Go — tick, recover_stale, live_watch, publish_plans
 ├── worker-general/           # Go — ingest, orquestração leve, fan-out paralelo
-├── worker-analyze/           # Python — Gemini, Whisper caption, Claude merge
+├── worker-analyze/           # Python — Gemini chunks, Claude merge (IA)
 ├── worker-transcribe/        # Python — transcribe.plan/chunk/merge (legendas)
 ├── worker-render/            # Go → ffmpeg/treatment subprocess
 ├── worker-thumbnail/         # Go shell (+ Python opcional para gpt-image)
@@ -197,8 +197,8 @@ Evitar duplicar: preferir **módulo Go dentro do repo api** importado como `gith
 
 ### Fase 3 — Delegação analyze
 
-- [ ] general Go deixa de rodar jobs IA; só re-enfileira  
-- [ ] Python worker-analyze exclusivo para chunks/merge  
+- [x] general Go re-enfileira jobs IA para `cuts:jobs:analyze`  
+- [x] Python worker-analyze exclusivo (`worker-analyze/` submodule)  
 - [ ] Remover handlers duplicados do monolith  
 
 ### Fase 4 — scheduler Go
