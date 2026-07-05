@@ -1,8 +1,8 @@
 # Plano: separação de serviços (workers, scheduler, bots)
 
 > **Branch:** `feat/worker-services-split`  
-> **Status:** Fase 4 (scheduler Go) implementada — submodule `scheduler/` + docker-compose.  
-> **Decisão:** `worker-general` passa a **Go** (goroutines + I/O); IA permanece **Python**.
+> **Status:** Fase 5 — workers I/O-bound em **Go** (goroutines + pydelegate); CPU-bound permanecem **Python**.  
+> **Decisão:** `worker-general`, `worker-analyze`, `worker-publish`, `worker-thumbnail`, `worker-notification` → **Go**; `worker-transcribe`, `worker-render` → **Python**.
 
 ---
 
@@ -39,12 +39,12 @@ maquina-de-cortes/
 │
 ├── scheduler/                # Go — tick, recover_stale, live_watch, publish_plans
 ├── worker-general/           # Go — ingest, orquestração leve, fan-out paralelo
-├── worker-analyze/           # Python — Gemini chunks, Claude merge (IA)
+├── worker-analyze/           # Go (+ pydelegate) — Gemini chunks, Claude merge (IA)
 ├── worker-transcribe/        # Python — transcribe.plan/chunk/merge (legendas)
-├── worker-render/            # Python — FFmpeg render (Go shell futuro)
-├── worker-thumbnail/         # Go shell (+ Python opcional para gpt-image)
-├── worker-publish/           # Python — YouTube / TikTok / Instagram APIs
-├── worker-notification/    # Python — cuts:notify → telegram, email
+├── worker-render/            # Python — FFmpeg render (concurrency 1)
+├── worker-thumbnail/         # Go (+ pydelegate) — thumbnail jobs
+├── worker-publish/           # Go (+ pydelegate) — YouTube / TikTok / Instagram APIs
+├── worker-notification/      # Go — cuts:notify → telegram, email
 │
 ├── orchestrator/             # HTTP — scheduling IA (Python por enquanto)
 ├── telegram-bot/             # polling /start → registra subscribers
@@ -67,12 +67,12 @@ maquina-de-cortes/
 | **api** | enqueue only | — | Go | 1–2 instâncias |
 | **scheduler** | all (recover) | — | **Go** | 1 instância |
 | **worker-general** | `cuts:jobs` | ver §4 | **Go** | N instâncias, goroutines |
-| **worker-analyze** | `cuts:jobs:analyze` + parte de general | gemini/transcript chunks | Python | N (API-bound) |
-| **worker-transcribe** | `cuts:jobs:transcribe` | transcribe.* | Python | N (CPU/GPU) |
-| **worker-thumbnail** | `cuts:jobs:thumbnail` | thumbnail.* | Python | N (API-bound) |
-| **worker-render** | `cuts:jobs:render` | metadata, render.*, subtitle, outro | Go + py subprocess | N (CPU/RAM) |
-| **worker-publish** | `cuts:jobs:publish` | publish.* | Go | baixo |
-| **worker-notification** | `cuts:notify` | dispatch telegram, email | Python | 1 |
+| **worker-analyze** | `cuts:jobs:analyze` + parte de general | gemini/transcript chunks | **Go** (+ pydelegate) | N, concurrency 16+ |
+| **worker-transcribe** | `cuts:jobs:transcribe` | transcribe.* | Python | 1–2 (CPU/GPU) |
+| **worker-thumbnail** | `cuts:jobs:thumbnail` | thumbnail.* | **Go** (+ pydelegate) | N, concurrency 8 |
+| **worker-render** | `cuts:jobs:render` | metadata, render.*, subtitle, outro | Python | 1 síncrono (CPU/RAM) |
+| **worker-publish** | `cuts:jobs:publish` | publish.* | **Go** (+ pydelegate) | N, concurrency 8 |
+| **worker-notification** | `cuts:notify` | dispatch telegram, email | **Go** | 1–N, concurrency 8 |
 | **orchestrator** | — (HTTP) | scheduling tools | Python | 1 |
 | **telegram-bot** | — | /start registration | Python | 1 |
 
