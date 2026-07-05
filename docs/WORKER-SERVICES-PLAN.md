@@ -189,10 +189,9 @@ Evitar duplicar: preferir **módulo Go dentro do repo api** importado como `gith
 
 ### Fase 2 — worker-general Go (piloto)
 
-- [ ] Port consumer + claim + ack para Go  
-- [ ] Handler: `ingest.youtube.download` only (yt-dlp)  
-- [ ] Handler: `analyze.plan` (só enqueue — sem IA)  
-- [ ] Feature flag: `GENERAL_WORKER_RUNTIME=go|python`  
+- [x] Port consumer + claim + ack para Go  
+- [x] Handler: `analyze.plan` (Go native) + demais via Python delegate  
+- [x] Feature flag: `GENERAL_WORKER_RUNTIME=go|python`  
 - [ ] Railway: novo serviço `worker-general-go`; desliga Python general  
 
 ### Fase 3 — Delegação analyze
