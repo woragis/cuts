@@ -220,6 +220,14 @@ Evitar duplicar: preferir **módulo Go dentro do repo api** importado como `gith
 - [ ] `backend/worker/cuts_worker/` vira só libs Python especializadas  
 - [ ] Imagens Docker &lt; 500MB onde possível  
 
+### Runtime limits (Postgres + Redis)
+
+- [x] Tabela `worker_runtime_settings` + seed defaults  
+- [x] API `GET/PUT /v1/ops/worker-limits` (sync Redis + PUBLISH rev)  
+- [x] worker-general Go: pool dinâmico + semáforo global ingest  
+- [x] Workers Python: pool paralelo lendo `cuts:runtime:limits`  
+- [ ] Painel admin no frontend  
+
 ---
 
 ## 8. goroutines — modelo sugerido (worker-general)
