@@ -34,14 +34,22 @@ Formato esperado:
 ## Arquitetura
 
 ```text
-scheduler/live_watch
+scheduler/live_watch / API test
   -> LPUSH cuts:notify
   -> Redis
-  -> telegram-bot BRPOP
-  -> Telegram sendMessage
+  -> worker-notification BRPOP
+  -> dispatcher
+       -> services/telegram.py
+       -> services/email.py
 ```
 
-O serviço `telegram-bot` também usa long polling para receber `/start` e registrar automaticamente o `chat_id` no blob de settings.
+O serviço `telegram-bot` usa long polling apenas para receber `/start` e registrar o `chat_id` no blob de settings.
+
+Configuração de email em `settings/email.json` (SMTP). Endpoints:
+
+- `GET /v1/settings/email`
+- `PUT /v1/settings/email`
+- `POST /v1/settings/email/test`
 
 ## Eventos Notificados
 
