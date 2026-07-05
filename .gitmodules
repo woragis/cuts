@@ -13,3 +13,6 @@
 [submodule "worker-analyze"]
 	path = worker-analyze
 	url = git@github.com:woragis/cuts-worker-analyze.git
+[submodule "worker-transcribe"]
+	path = worker-transcribe
+	url = git@github.com:woragis/cuts-worker-transcribe.git
