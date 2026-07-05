@@ -19,3 +19,6 @@
 [submodule "worker-render"]
 	path = worker-render
 	url = git@github.com:woragis/cuts-worker-render.git
+[submodule "worker-publish"]
+	path = worker-publish
+	url = git@github.com:woragis/cuts-worker-publish.git
