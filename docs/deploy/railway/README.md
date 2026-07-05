@@ -39,7 +39,7 @@ REDIS_URL=${{Redis.REDIS_URL}}
 
 `RAILWAY_PRIVATE_DOMAIN` só funciona **em runtime** dentro do container — não em build nem no browser.
 
-Frontend Next.js: chame a API via URL **pública** (`NEXT_PUBLIC_API_URL`), não `*.railway.internal`.
+Frontend Next.js: chame a API via URL **pública** (`NEXT_PUBLIC_API_URL` em `frontend/railway.env.example`), não `*.railway.internal`.
 
 ## Build context monorepo (workers Python)
 
