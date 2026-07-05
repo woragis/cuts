@@ -7,3 +7,6 @@
 [submodule "scheduler"]
 	path = scheduler
 	url = git@github.com:woragis/cuts-scheduler.git
+[submodule "worker-general"]
+	path = worker-general
+	url = git@github.com:woragis/cuts-worker-general.git
