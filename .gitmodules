@@ -16,3 +16,6 @@
 [submodule "worker-transcribe"]
 	path = worker-transcribe
 	url = git@github.com:woragis/cuts-worker-transcribe.git
+[submodule "worker-render"]
+	path = worker-render
+	url = git@github.com:woragis/cuts-worker-render.git

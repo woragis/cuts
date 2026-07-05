@@ -41,7 +41,7 @@ maquina-de-cortes/
 ├── worker-general/           # Go — ingest, orquestração leve, fan-out paralelo
 ├── worker-analyze/           # Python — Gemini chunks, Claude merge (IA)
 ├── worker-transcribe/        # Python — transcribe.plan/chunk/merge (legendas)
-├── worker-render/            # Go → ffmpeg/treatment subprocess
+├── worker-render/            # Python — FFmpeg render (Go shell futuro)
 ├── worker-thumbnail/         # Go shell (+ Python opcional para gpt-image)
 ├── worker-publish/           # Go — YouTube / TikTok / Instagram APIs
 │
@@ -210,7 +210,8 @@ Evitar duplicar: preferir **módulo Go dentro do repo api** importado como `gith
 
 ### Fase 5 — render / thumbnail / publish Go
 
-- [ ] Um serviço por fila, subprocess para treatment pesado  
+- [x] Python worker-render exclusivo (`worker-render/` submodule)  
+- [ ] Go orchestration + subprocess treatment pesado  
 - [ ] Avaliar fila dedicada `cuts:jobs:thumbnail`  
 
 ### Fase 6 — Desmontar monolith
