@@ -31,3 +31,6 @@
 [submodule "meta-dev-server"]
 	path = meta-dev-server
 	url = git@github.com:woragis/cuts-meta-dev-server.git
+[submodule "tiktok-dev-server"]
+	path = tiktok-dev-server
+	url = git@github.com:woragis/cuts-tiktok-dev-server.git
