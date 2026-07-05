@@ -43,7 +43,7 @@ maquina-de-cortes/
 ├── worker-transcribe/        # Python — transcribe.plan/chunk/merge (legendas)
 ├── worker-render/            # Python — FFmpeg render (Go shell futuro)
 ├── worker-thumbnail/         # Go shell (+ Python opcional para gpt-image)
-├── worker-publish/           # Go — YouTube / TikTok / Instagram APIs
+├── worker-publish/           # Python — YouTube / TikTok / Instagram APIs
 │
 ├── orchestrator/             # HTTP — scheduling IA (Python por enquanto)
 ├── telegram-bot/             # notificações Redis → Telegram
@@ -208,10 +208,11 @@ Evitar duplicar: preferir **módulo Go dentro do repo api** importado como `gith
 - [x] Port `recover_stale_jobs`, live_watch, publish_plans  
 - [x] Desliga `python -m scheduler.main` (docker-compose usa imagem Go; rollback: `SCHEDULER_RUNTIME=python` em dev)  
 
-### Fase 5 — render / thumbnail / publish Go
+### Fase 5 — render / thumbnail / publish
 
 - [x] Python worker-render exclusivo (`worker-render/` submodule)  
-- [ ] Go orchestration + subprocess treatment pesado  
+- [x] Python worker-publish exclusivo (`worker-publish/` submodule)  
+- [ ] Go orchestration render + subprocess treatment pesado  
 - [ ] Avaliar fila dedicada `cuts:jobs:thumbnail`  
 
 ### Fase 6 — Desmontar monolith
