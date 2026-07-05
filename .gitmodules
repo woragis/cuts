@@ -10,3 +10,6 @@
 [submodule "worker-general"]
 	path = worker-general
 	url = git@github.com:woragis/cuts-worker-general.git
+[submodule "worker-analyze"]
+	path = worker-analyze
+	url = git@github.com:woragis/cuts-worker-analyze.git
