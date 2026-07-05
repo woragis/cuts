@@ -190,9 +190,10 @@ Evitar duplicar: preferir **módulo Go dentro do repo api** importado como `gith
 ### Fase 2 — worker-general Go (piloto)
 
 - [x] Port consumer + claim + ack para Go  
-- [x] Handler: `analyze.plan` (Go native) + demais via Python delegate  
+- [x] Handlers Go: ingest, analyze.plan, gemini.merge, run control  
+- [x] Python delegate só para IA/legacy (merge, scheduling, whisper, gemini.url)  
 - [x] Feature flag: `GENERAL_WORKER_RUNTIME=go|python`  
-- [ ] Railway: novo serviço `worker-general-go`; desliga Python general  
+- [ ] Railway: deploy serviço Go; remover mount Python quando IA migrar  
 
 ### Fase 3 — Delegação analyze
 
