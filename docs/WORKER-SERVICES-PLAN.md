@@ -69,8 +69,8 @@ maquina-de-cortes/
 | **worker-general** | `cuts:jobs` | ver §4 | **Go** | N instâncias, goroutines |
 | **worker-analyze** | `cuts:jobs:analyze` + parte de general | gemini/transcript chunks | Python | N (API-bound) |
 | **worker-transcribe** | `cuts:jobs:transcribe` | transcribe.* | Python | N (CPU/GPU) |
+| **worker-thumbnail** | `cuts:jobs:thumbnail` | thumbnail.* | Python | N (API-bound) |
 | **worker-render** | `cuts:jobs:render` | metadata, render.*, subtitle, outro | Go + py subprocess | N (CPU/RAM) |
-| **worker-thumbnail** | `cuts:jobs:render` ou fila própria | thumbnail.* | Go + py IA | N |
 | **worker-publish** | `cuts:jobs:publish` | publish.* | Go | baixo |
 | **worker-notification** | `cuts:notify` | dispatch telegram, email | Python | 1 |
 | **orchestrator** | — (HTTP) | scheduling tools | Python | 1 |
@@ -117,7 +117,8 @@ A fila `general` hoje mistura **I/O paralelo** e **orquestração**:
 
 - `analyze.gemini.chunk` / `analyze.transcript.chunk` → **worker-analyze**  
 - `transcribe.plan/chunk/merge` → **worker-transcribe**  
-- `render.*`, `metadata`, `thumbnail.*` → **worker-render** / **worker-thumbnail**  
+- `render.*`, `metadata`, `subtitle`, `outro.*` → **worker-render**  
+- `thumbnail.*` → **worker-thumbnail**
 - `publish.*` → **worker-publish**
 
 Após migração, **`WORKER_STAGE=general`** deixa de existir no Python; só no binário Go.
@@ -214,8 +215,8 @@ Evitar duplicar: preferir **módulo Go dentro do repo api** importado como `gith
 
 - [x] Python worker-render exclusivo (`worker-render/` submodule)  
 - [x] Python worker-publish exclusivo (`worker-publish/` submodule)  
-- [ ] Go orchestration render + subprocess treatment pesado  
-- [ ] Avaliar fila dedicada `cuts:jobs:thumbnail`  
+- [x] Python worker-thumbnail exclusivo (`worker-thumbnail/` submodule, fila `cuts:jobs:thumbnail`)
+- [ ] Go orchestration render + subprocess treatment pesado
 
 ### Fase 6 — Desmontar monolith
 
