@@ -195,10 +195,12 @@ Evitar duplicar: preferir **módulo Go dentro do repo api** importado como `gith
 - [x] Feature flag: `GENERAL_WORKER_RUNTIME=go|python`  
 - [ ] Railway: deploy serviço Go; remover mount Python quando IA migrar  
 
-### Fase 3 — Delegação analyze
+### Fase 3 — Delegação analyze + transcribe
 
 - [x] general Go re-enfileira jobs IA para `cuts:jobs:analyze`  
 - [x] Python worker-analyze exclusivo (`worker-analyze/` submodule)  
+- [x] general Go re-enfileira jobs transcribe para `cuts:jobs:transcribe`  
+- [x] Python worker-transcribe exclusivo (`worker-transcribe/` submodule)  
 - [ ] Remover handlers duplicados do monolith  
 
 ### Fase 4 — scheduler Go
