@@ -4,3 +4,6 @@
 [submodule "frontend"]
 	path = frontend
 	url = git@github.com:woragis/cuts-machine-frontend.git
+[submodule "scheduler"]
+	path = scheduler
+	url = git@github.com:woragis/cuts-scheduler.git
