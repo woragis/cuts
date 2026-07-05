@@ -44,9 +44,10 @@ maquina-de-cortes/
 ├── worker-render/            # Python — FFmpeg render (Go shell futuro)
 ├── worker-thumbnail/         # Go shell (+ Python opcional para gpt-image)
 ├── worker-publish/           # Python — YouTube / TikTok / Instagram APIs
+├── worker-notification/    # Python — cuts:notify → telegram, email
 │
 ├── orchestrator/             # HTTP — scheduling IA (Python por enquanto)
-├── telegram-bot/             # notificações Redis → Telegram
+├── telegram-bot/             # polling /start → registra subscribers
 │
 ├── libs/
 │   ├── go-pipeline/          # consumer, claim, envelope, pg, redis
@@ -71,8 +72,9 @@ maquina-de-cortes/
 | **worker-render** | `cuts:jobs:render` | metadata, render.*, subtitle, outro | Go + py subprocess | N (CPU/RAM) |
 | **worker-thumbnail** | `cuts:jobs:render` ou fila própria | thumbnail.* | Go + py IA | N |
 | **worker-publish** | `cuts:jobs:publish` | publish.* | Go | baixo |
+| **worker-notification** | `cuts:notify` | dispatch telegram, email | Python | 1 |
 | **orchestrator** | — (HTTP) | scheduling tools | Python | 1 |
-| **telegram-bot** | `cuts:notify` | — | Python/Go | 1 |
+| **telegram-bot** | — | /start registration | Python | 1 |
 
 ---
 
@@ -261,7 +263,8 @@ Python hoje: **1 job por processo**, loop serial no BRPOP — gargalo para I/O p
 
 | Componente | Mover? | Notas |
 |------------|--------|-------|
-| **telegram-bot** | pasta top-level (já quase) | só Redis notify; pode ficar Python |
+| **worker-notification** | `worker-notification/` | consome `cuts:notify`; dispatcher → telegram, email |
+| **telegram-bot** | `backend/telegram-bot` | polling `/start` apenas |
 | **orchestrator** | pasta top-level | HTTP + Claude agent; Python até port |
 | **meta-dev-server** | fora do pipeline | dev only |
 | **tiktok-dev-server** | fora do pipeline | dev only |
