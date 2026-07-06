@@ -28,6 +28,9 @@
 [submodule "worker-thumbnail"]
 	path = worker-thumbnail
 	url = git@github.com:woragis/cuts-worker-thumbnail.git
+[submodule "orchestrator"]
+	path = orchestrator
+	url = git@github.com:woragis/cuts-orchestrator.git
 [submodule "meta-dev-server"]
 	path = meta-dev-server
 	url = git@github.com:woragis/cuts-meta-dev-server.git
