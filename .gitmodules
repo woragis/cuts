@@ -1,9 +1,9 @@
 [submodule "backend"]
 	path = backend
-	url = git@github.com:woragis/cuts-machine-backend.git
+	url = git@github.com:woragis/cuts-backend.git
 [submodule "frontend"]
 	path = frontend
-	url = git@github.com:woragis/cuts-machine-frontend.git
+	url = git@github.com:woragis/cuts-frontend.git
 [submodule "scheduler"]
 	path = scheduler
 	url = git@github.com:woragis/cuts-scheduler.git
@@ -42,4 +42,4 @@
 	url = git@github.com:woragis/cuts-worker-audio.git
 [submodule "worker-treatment"]
 	path = worker-treatment
-	url = git@github.com:woragis/cuts-treatment-worker.git
+	url = git@github.com:woragis/cuts-worker-treatment.git
