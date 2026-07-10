@@ -8,6 +8,7 @@ output/
 outputs/
 lab-output/
 cache/
+.env.railway
 thumbnails/
 audio/
 video/

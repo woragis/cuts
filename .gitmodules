@@ -37,3 +37,9 @@
 [submodule "tiktok-dev-server"]
 	path = tiktok-dev-server
 	url = git@github.com:woragis/cuts-tiktok-dev-server.git
+[submodule "worker-audio"]
+	path = worker-audio
+	url = git@github.com:woragis/cuts-worker-audio.git
+[submodule "worker-treatment"]
+	path = worker-treatment
+	url = git@github.com:woragis/cuts-treatment-worker.git
