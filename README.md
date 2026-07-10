@@ -1,4 +1,4 @@
-# Máquina de Cortes
+# Cuts
 
 Pipeline para transformar **vídeos do YouTube** (próprios ou de terceiros) em **Shorts**, **cortes longos** e **metadados** — com templates de thumbnail e `cutBrief` para guiar a IA.
 
