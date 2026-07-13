@@ -4,13 +4,13 @@ Um **Railway Project** com Postgres + Redis + serviços da stack. Use **referenc
 
 ## Importante: um repo por serviço worker
 
-Cada worker é um **repositório Git próprio** (`cuts-worker-render`, etc.). O monorepo `cuts-machine` usa **submodules** — o archive do Railway **não inclui** o conteúdo dos submodules, então paths como `worker-render/Dockerfile` no monorepo **falham**.
+Cada worker é um **repositório Git próprio** (`cuts-worker-ffmpeg`, etc.). O monorepo `cuts-machine` usa **submodules** — o archive do Railway **não inclui** o conteúdo dos submodules, então paths como `worker-ffmpeg/Dockerfile` no monorepo **falham**.
 
 **Configure cada serviço Railway assim:**
 
 | Setting | Valor |
 |---------|--------|
-| Source repo | `woragis/cuts-worker-render` (repo do worker) |
+| Source repo | `woragis/cuts-worker-ffmpeg` (repo do worker) |
 | Root Directory | `/` |
 | Dockerfile Path | `Dockerfile` |
 
@@ -25,13 +25,13 @@ O `railway.toml` em cada repo já define `dockerfilePath = "Dockerfile"`.
 | `api` | `cuts-machine-backend` | Go |
 | `frontend` | `cuts-machine-frontend` | Next.js |
 | `scheduler` | `cuts-scheduler` | Go |
-| `worker-general` | `cuts-worker-general` | Go |
+| `worker-control` | `cuts-worker-control` | Go |
 | `worker-analyze` | `cuts-worker-analyze` | Go |
 | `worker-publish` | `cuts-worker-publish` | Go |
 | `worker-thumbnail` | `cuts-worker-thumbnail` | Go |
 | `worker-transcribe` | `cuts-worker-transcribe` | Python |
-| `worker-render` | `cuts-worker-render` | Python |
-| `worker-notification` | `cuts-worker-notification` | Go |
+| `worker-ffmpeg` | `cuts-worker-ffmpeg` | Python |
+| `worker-notify` | `cuts-worker-notify` | Go |
 | `telegram-bot` | `cuts-machine-backend` | Python (`telegram-bot/Dockerfile`) |
 
 ## Build: repos privados
@@ -59,7 +59,7 @@ REDIS_URL=${{Redis.REDIS_URL}}
 ## Local (docker-compose)
 
 ```bash
-docker compose -f backend/docker-compose.yml build worker-render
+docker compose -f backend/docker-compose.yml build worker-ffmpeg
 ```
 
 Cada serviço usa `context: ../worker-XXX` — mesmo Dockerfile que o Railway.

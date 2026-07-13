@@ -153,7 +153,7 @@ video.mp4 + outro.png + outro-song.mp3
   → outro.append (fade-out voz + fade-in imagem/música)
 ```
 
-Job type: `outro.append` no `worker-render`.
+Job type: `outro.append` no `worker-ffmpeg`.
 
 ---
 

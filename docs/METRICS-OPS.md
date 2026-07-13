@@ -24,7 +24,7 @@ Resposta exemplo:
   },
   "workers": [
     {
-      "instanceId": "worker-render-1-42",
+      "instanceId": "worker-ffmpeg-1-42",
       "stage": "render",
       "status": "busy",
       "cpuPercent": 87.2,
@@ -72,7 +72,7 @@ Se worker não renovar métricas em 90s → some do overview (réplica morta ou 
 | Fila | `WORKER_STAGE` | Jobs |
 |------|----------------|------|
 | `cuts:jobs` | `general` | ingest, analyze, transcribe |
-| `cuts:jobs:render` | `render` | metadata, thumb, subtitle, render |
+| `cuts:jobs:ffmpeg` | `render` | metadata, thumb, subtitle, render |
 | `cuts:jobs:publish` | `publish` | publish.youtube (+ TT/IG futuro) |
 
 Enqueue automático por tipo de job (Python + Go).
@@ -84,14 +84,14 @@ Enqueue automático por tipo de job (Python + Go).
 | Serviço | Réplicas sugeridas | Env |
 |---------|-------------------|-----|
 | `scheduler` | 1 | — |
-| `worker-general` | 1 | `WORKER_STAGE=general` |
-| `worker-render` | 2–4 | `WORKER_STAGE=render` |
+| `worker-control` | 1 | `WORKER_STAGE=general` |
+| `worker-ffmpeg` | 2–4 | `WORKER_STAGE=render` |
 | `worker-publish` | 2 | `WORKER_STAGE=publish` |
 
 Local:
 
 ```bash
-docker compose up -d --scale worker-render=3 --scale worker-publish=2
+docker compose up -d --scale worker-ffmpeg=3 --scale worker-publish=2
 ```
 
 Railway: um **service** por stage; ajuste **Replicas** no painel.

@@ -88,7 +88,7 @@ Workers ficam em **pastas separadas** sob `backend/`, cada um com consumer + han
 | `worker-analyze` | `analyze.gemini` | Gemini API + cutBrief |
 | `worker-metadata` | `metadata.generate` | Gemini (título, desc, tags) |
 | `worker-thumbnail` | `thumbnail.generate` | template + gpt-image / composição |
-| `worker-render` | `render.short`, `render.long`, `outro.append` | FFmpeg |
+| `worker-ffmpeg` | `render.short`, `render.long`, `outro.append` | FFmpeg |
 
 **Fase 1:** um único `worker/` monolítico com dispatch por `job.type`. Separar em pastas quando escalar.
 
@@ -117,7 +117,7 @@ maquina-de-cortes/
 │   ├── worker-analyze/
 │   ├── worker-metadata/
 │   ├── worker-thumbnail/
-│   ├── worker-render/
+│   ├── worker-ffmpeg/
 │   └── docker-compose.yml
 └── frontend/                    # submodule (fase posterior)
 ```

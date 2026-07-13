@@ -38,6 +38,9 @@ extract → silence → hook
 
 Legacy env fallbacks: `REDIS_QUEUE_TREATMENT` → plan, `REDIS_QUEUE_RENDER` → ffmpeg.
 
+
+> **Note:** `metadata.generate` still runs on **worker-ffmpeg** (Python) until a Go port lands on worker-control. It is enqueued early and does not wait for Remotion/mux.
+
 ## SQL
 
 Migration `024_cut_treatment_pipeline.sql`: `cut_treatments`, `cut_treatment_steps`, silence keeps/removals, hook plan/segments, `cut_visual_effects`, `cut_caption_words`.
