@@ -36,6 +36,18 @@ extract → silence → hook
 | worker-publish | cuts:jobs:publish | Go | uploads |
 | worker-notify | cuts:notify | Go | telegram/email |
 
+Legacy env fallbacks: `REDIS_QUEUE_TREATMENT` → plan, `REDIS_QUEUE_RENDER` → ffmpeg.
+
 ## SQL
 
 Migration `024_cut_treatment_pipeline.sql`: `cut_treatments`, `cut_treatment_steps`, silence keeps/removals, hook plan/segments, `cut_visual_effects`, `cut_caption_words`.
+
+Lane deps + regen invalidate: `backend/server/internal/treatmentlane`.
+
+## Regen / enable API
+
+- `GET /v1/runs/{id}/cuts/{cutId}/treatment`
+- `PATCH /v1/runs/{id}/cuts/{cutId}/treatment/steps/{step}` body `{ "enabled": true|false }`
+- `POST /v1/runs/{id}/cuts/{cutId}/treatment/steps/{step}/regenerate` — marks downstream stale and re-enqueues
+
+See also [LANGUAGE-CONCURRENCY.md](./LANGUAGE-CONCURRENCY.md) and [WORKER-RENAMES.md](./WORKER-RENAMES.md).

@@ -21,6 +21,17 @@ gh auth login -h github.com   # if `gh auth status` says token is invalid
 
 Until then, local paths already use the new names while remotes stay on the old GitHub URLs (SSH push still works to those).
 
+## Redis queue defaults
+
+| Queue | Default | Env (preferred) | Legacy env fallback |
+|-------|---------|-----------------|---------------------|
+| plan | `cuts:jobs:plan` | `REDIS_QUEUE_PLAN` | `REDIS_QUEUE_TREATMENT` |
+| ffmpeg | `cuts:jobs:ffmpeg` | `REDIS_QUEUE_FFMPEG` | `REDIS_QUEUE_RENDER` |
+| visual | `cuts:jobs:visual` | `REDIS_QUEUE_VISUAL` | — |
+| audio | `cuts:jobs:audio` | `REDIS_QUEUE_AUDIO` | — |
+
+`cuts:jobs:render` / `cuts:jobs:treatment` remain valid when set via the legacy env vars during migrate.
+
 **Archive unused:** only after confirming nothing still points at a remote. Example:
 
 ```bash
