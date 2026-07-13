@@ -12,11 +12,19 @@ Target names from the treatment pipeline plan. Local/path renames can land befor
 
 Keep: analyze, transcribe, audio, thumbnail, publish.
 
-When `gh` has access to private repos:
+When `gh` has access to private repos (token must include private repo admin):
 
 ```bash
-gh repo rename cuts-worker-control --repo woragis/cuts-worker-general
-# then update .gitmodules urls and git remote set-url
+gh auth login -h github.com   # if `gh auth status` says token is invalid
+./scripts/rename-worker-repos.sh
 ```
 
-Until then, paths may already use new names while remotes stay on old URLs.
+Until then, local paths already use the new names while remotes stay on the old GitHub URLs (SSH push still works to those).
+
+**Archive unused:** only after confirming nothing still points at a remote. Example:
+
+```bash
+gh repo archive woragis/<unused-repo> --yes
+```
+
+Do not archive the five rename sources until redirects are confirmed.

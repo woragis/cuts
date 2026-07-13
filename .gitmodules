@@ -8,7 +8,7 @@
 	path = scheduler
 	url = git@github.com:woragis/cuts-scheduler.git
 [submodule "worker-general"]
-	path = worker-general
+	path = worker-control
 	url = git@github.com:woragis/cuts-worker-general.git
 [submodule "worker-analyze"]
 	path = worker-analyze
@@ -17,13 +17,13 @@
 	path = worker-transcribe
 	url = git@github.com:woragis/cuts-worker-transcribe.git
 [submodule "worker-render"]
-	path = worker-render
+	path = worker-ffmpeg
 	url = git@github.com:woragis/cuts-worker-render.git
 [submodule "worker-publish"]
 	path = worker-publish
 	url = git@github.com:woragis/cuts-worker-publish.git
 [submodule "worker-notification"]
-	path = worker-notification
+	path = worker-notify
 	url = git@github.com:woragis/cuts-worker-notification.git
 [submodule "worker-thumbnail"]
 	path = worker-thumbnail
@@ -41,7 +41,7 @@
 	path = worker-audio
 	url = git@github.com:woragis/cuts-worker-audio.git
 [submodule "worker-treatment"]
-	path = worker-treatment
+	path = worker-plan
 	url = git@github.com:woragis/cuts-worker-treatment.git
 [submodule "worker-visual"]
 	path = worker-visual
