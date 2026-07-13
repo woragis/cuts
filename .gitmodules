@@ -43,3 +43,6 @@
 [submodule "worker-treatment"]
 	path = worker-treatment
 	url = git@github.com:woragis/cuts-worker-treatment.git
+[submodule "worker-visual"]
+	path = worker-visual
+	url = git@github.com:woragis/render-remotion.git
