@@ -39,6 +39,8 @@ extract → silence → hook
 Legacy env fallbacks: `REDIS_QUEUE_TREATMENT` → plan, `REDIS_QUEUE_RENDER` → ffmpeg.
 
 Publish barrier (mux + thumbnail + metadata): `treatmentlane.PublishBarrierSteps` — checked after each of those steps completes.
+
+**Metadata authority:** `cuts.title`, `cuts.description`, and `cuts.metadata` (JSONB). No `metadata.json` / `title.txt` blob files on the happy path.
 ## SQL
 
 Migration `024_cut_treatment_pipeline.sql`: `cut_treatments`, `cut_treatment_steps`, silence keeps/removals, hook plan/segments, `cut_visual_effects`, `cut_caption_words`.
