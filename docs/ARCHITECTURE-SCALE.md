@@ -113,9 +113,9 @@ Substituir fila única `cuts:jobs` por **filas por estágio** (mesmo envelope JS
 
 | Fila | Job types | Consumidor |
 |------|-----------|------------|
-| `cuts:jobs:ingest` | `ingest.youtube.download` | worker-ingest |
+| `cuts:jobs` | `ingest.youtube.download`, `metadata.generate`, `run.continue`, … | worker-control |
 | `cuts:jobs:analyze` | `analyze.gemini.url` | worker-analyze |
-| `cuts:jobs:ffmpeg` | `render.short`, `render.long`, `metadata.generate`, `thumbnail.generate`, `subtitle.generate` | worker-ffmpeg |
+| `cuts:jobs:ffmpeg` | `render.short`, `render.long`, `subtitle.generate`, extract/hook/mux | worker-ffmpeg |
 | `cuts:jobs:publish` | `publish.youtube`, `publish.tiktok`, `publish.instagram` | worker-publish |
 | `cuts:jobs:planning` | `routing.assign`, `scheduling.plan` | worker-planning |
 | `cuts:jobs:dlq` | falhas após N tentativas | alerta + retry manual |

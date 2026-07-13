@@ -25,7 +25,7 @@ extract → silence → hook
 
 | Worker | Queue | Lang | Role |
 |--------|-------|------|------|
-| worker-control | cuts:jobs | Go | ingest, continue, metadata |
+| worker-control | cuts:jobs | Go | ingest, continue, **metadata.generate** |
 | worker-analyze | cuts:jobs:analyze | Go | cut finding |
 | worker-transcribe | cuts:jobs:transcribe | Python | Whisper + cut captions |
 | worker-plan | cuts:jobs:plan | Go/Py | hook.plan (LLM) |
@@ -38,9 +38,7 @@ extract → silence → hook
 
 Legacy env fallbacks: `REDIS_QUEUE_TREATMENT` → plan, `REDIS_QUEUE_RENDER` → ffmpeg.
 
-
-> **Note:** `metadata.generate` still runs on **worker-ffmpeg** (Python) until a Go port lands on worker-control. It is enqueued early and does not wait for Remotion/mux.
-
+Publish barrier (mux + thumbnail + metadata): `treatmentlane.PublishBarrierSteps` — checked after each of those steps completes.
 ## SQL
 
 Migration `024_cut_treatment_pipeline.sql`: `cut_treatments`, `cut_treatment_steps`, silence keeps/removals, hook plan/segments, `cut_visual_effects`, `cut_caption_words`.
