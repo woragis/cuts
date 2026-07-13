@@ -46,3 +46,6 @@
 [submodule "worker-visual"]
 	path = worker-visual
 	url = git@github.com:woragis/cuts-worker-visual.git
+[submodule "worker-factory"]
+	path = worker-factory
+	url = git@github.com:woragis/cuts-worker-factory.git

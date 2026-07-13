@@ -32,6 +32,7 @@ O `railway.toml` em cada repo já define `dockerfilePath = "Dockerfile"`.
 | `worker-transcribe` | `cuts-worker-transcribe` | Python |
 | `worker-ffmpeg` | `cuts-worker-ffmpeg` | Python |
 | `worker-notify` | `cuts-worker-notify` | Go |
+| `worker-factory` | `cuts-worker-factory` | Go |
 | `telegram-bot` | `cuts-machine-backend` | Python (`telegram-bot/Dockerfile`) |
 
 ## Build: repos privados
