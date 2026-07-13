@@ -22,8 +22,8 @@ O `railway.toml` em cada repo já define `dockerfilePath = "Dockerfile"`.
 |-----------------|-------------|-------|
 | `Postgres` | plugin | — |
 | `Redis` | plugin | — |
-| `api` | `cuts-machine-backend` | Go |
-| `frontend` | `cuts-machine-frontend` | Next.js |
+| `api` | `cuts-backend` | Go |
+| `frontend` | `cuts-frontend` | Next.js |
 | `scheduler` | `cuts-scheduler` | Go |
 | `worker-control` | `cuts-worker-control` | Go |
 | `worker-analyze` | `cuts-worker-analyze` | Go |
@@ -31,9 +31,12 @@ O `railway.toml` em cada repo já define `dockerfilePath = "Dockerfile"`.
 | `worker-thumbnail` | `cuts-worker-thumbnail` | Go |
 | `worker-transcribe` | `cuts-worker-transcribe` | Python |
 | `worker-ffmpeg` | `cuts-worker-ffmpeg` | Python |
+| `worker-plan` | `cuts-worker-plan` | Python |
+| `worker-visual` | `cuts-worker-visual` | Node/Remotion |
+| `worker-audio` | `cuts-worker-audio` | Python |
 | `worker-notify` | `cuts-worker-notify` | Go |
 | `worker-factory` | `cuts-worker-factory` | Go |
-| `telegram-bot` | `cuts-machine-backend` | Python (`telegram-bot/Dockerfile`) |
+| `telegram-bot` | `cuts-backend` | Python (`telegram-bot/Dockerfile`) |
 
 ## Build: repos privados
 
