@@ -1,0 +1,169 @@
+{
+  "upsert": true,
+  "catalog": {
+    "items": [
+      {
+        "community": "en-politics-cuts",
+        "communityName": "Cuts Streamers Hub",
+        "language": "en",
+        "timezone": "America/New_York",
+        "type": "flagship",
+        "name": "Cuts Streamers Hub",
+        "slug": "en-politics-cuts-hub",
+        "username": "cutsstreamers"
+      },
+      {
+        "community": "es-poder-por-dentro",
+        "communityName": "Cortes Streamers ES",
+        "language": "es",
+        "timezone": "Europe/Madrid",
+        "type": "flagship",
+        "name": "Cortes Streamers ES",
+        "slug": "es-poder-por-dentro-hub",
+        "username": "cortesstreameres"
+      },
+      {
+        "community": "pt-politica-cortes",
+        "communityName": "Cortes Streamers BR",
+        "language": "pt",
+        "timezone": "America/Sao_Paulo",
+        "type": "flagship",
+        "name": "Cortes Streamers BR",
+        "slug": "pt-politica-cortes-hub",
+        "username": "cortesstreamersbr"
+      },
+      {
+        "community": "de-macht-von-innen",
+        "communityName": "Cuts Streamers DE",
+        "language": "de",
+        "timezone": "Europe/Berlin",
+        "type": "flagship",
+        "name": "Cuts Streamers DE",
+        "slug": "de-macht-von-innen-hub",
+        "username": "cutsstreamersde"
+      },
+      {
+        "community": "fr-pouvoir-interieur",
+        "communityName": "Cuts Streamers FR",
+        "language": "fr",
+        "timezone": "Europe/Paris",
+        "type": "flagship",
+        "name": "Cuts Streamers FR",
+        "slug": "fr-pouvoir-interieur-hub",
+        "username": "cutsstreamersfr"
+      }
+    ]
+  },
+  "liveWatch": {
+    "items": [
+      {
+        "community": "en-politics-cuts",
+        "name": "xQc",
+        "youtubeChannelUrl": "https://www.youtube.com/@xQcOW",
+        "titleContains": "",
+        "scheduleDays": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+        "startLocal": "00:00",
+        "avgDurationMinutes": 180,
+        "pollIntervalMinutes": 20,
+        "maxWaitAfterExpectedMinutes": 1440,
+        "enabled": true
+      },
+      {
+        "community": "en-politics-cuts",
+        "name": "Ludwig",
+        "youtubeChannelUrl": "https://www.youtube.com/@LudwigAhgren",
+        "titleContains": "",
+        "scheduleDays": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+        "startLocal": "00:00",
+        "avgDurationMinutes": 120,
+        "pollIntervalMinutes": 20,
+        "maxWaitAfterExpectedMinutes": 1440,
+        "enabled": true
+      },
+      {
+        "community": "en-politics-cuts",
+        "name": "shroud",
+        "youtubeChannelUrl": "https://www.youtube.com/@shroud",
+        "titleContains": "",
+        "scheduleDays": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+        "startLocal": "00:00",
+        "avgDurationMinutes": 150,
+        "pollIntervalMinutes": 20,
+        "maxWaitAfterExpectedMinutes": 1440,
+        "enabled": true
+      },
+      {
+        "community": "es-poder-por-dentro",
+        "name": "ElXokas",
+        "youtubeChannelUrl": "https://www.youtube.com/@ElXokas",
+        "titleContains": "",
+        "scheduleDays": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+        "startLocal": "00:00",
+        "avgDurationMinutes": 120,
+        "pollIntervalMinutes": 20,
+        "maxWaitAfterExpectedMinutes": 1440,
+        "enabled": true
+      },
+      {
+        "community": "es-poder-por-dentro",
+        "name": "Ibai",
+        "youtubeChannelUrl": "https://www.youtube.com/@ibaillanos",
+        "titleContains": "",
+        "scheduleDays": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+        "startLocal": "00:00",
+        "avgDurationMinutes": 180,
+        "pollIntervalMinutes": 20,
+        "maxWaitAfterExpectedMinutes": 1440,
+        "enabled": true
+      },
+      {
+        "community": "pt-politica-cortes",
+        "name": "Gaules",
+        "youtubeChannelUrl": "https://www.youtube.com/@Gaules",
+        "titleContains": "",
+        "scheduleDays": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+        "startLocal": "00:00",
+        "avgDurationMinutes": 180,
+        "pollIntervalMinutes": 20,
+        "maxWaitAfterExpectedMinutes": 1440,
+        "enabled": true
+      },
+      {
+        "community": "pt-politica-cortes",
+        "name": "loud_coringa",
+        "youtubeChannelUrl": "https://www.youtube.com/@loud_coringa",
+        "titleContains": "",
+        "scheduleDays": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+        "startLocal": "00:00",
+        "avgDurationMinutes": 150,
+        "pollIntervalMinutes": 20,
+        "maxWaitAfterExpectedMinutes": 1440,
+        "enabled": true
+      },
+      {
+        "community": "de-macht-von-innen",
+        "name": "Papaplatte",
+        "youtubeChannelUrl": "https://www.youtube.com/@Papaplatte",
+        "titleContains": "",
+        "scheduleDays": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+        "startLocal": "00:00",
+        "avgDurationMinutes": 150,
+        "pollIntervalMinutes": 20,
+        "maxWaitAfterExpectedMinutes": 1440,
+        "enabled": true
+      },
+      {
+        "community": "fr-pouvoir-interieur",
+        "name": "Squeezie",
+        "youtubeChannelUrl": "https://www.youtube.com/@Squeezie",
+        "titleContains": "",
+        "scheduleDays": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+        "startLocal": "00:00",
+        "avgDurationMinutes": 90,
+        "pollIntervalMinutes": 20,
+        "maxWaitAfterExpectedMinutes": 1440,
+        "enabled": true
+      }
+    ]
+  }
+}
